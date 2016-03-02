@@ -1,9 +1,9 @@
 {
     "core/class/plugin.class.php": {
         "Inconnue": "Sconosciuto",
-        "Gestion automatique désactivée": "Gestion automatique désactivée",
-        "Dépendances en cours d'installation": "Dépendances en cours d'installation",
-        "Erreur sur la fonction cronDaily du plugin : ": "Erreur sur la fonction cronDaily du plugin :",
+        "Gestion automatique désactivée": "Gestione automatica disattivato",
+        "Dépendances en cours d'installation": "Dipendenze in fase di installazione",
+        "Erreur sur la fonction cronDaily du plugin : ": "Errore sulla funzione cronDaily dal plugin:",
         "Attention lancement de l'installation des dépendances": "Attention lancement de l'installation des dépendances"
     },
     "core/class/cmd.class.php": {
@@ -43,10 +43,10 @@
         "Historique": "Storico",
         "Temps réel": "Tempo reale",
         "Logs": "Logs",
-        "Batteries": "Batteries",
+        "Batteries": "Batteria",
         "Informations système": "Informazioni sistema",
         "Santé": "Salute",
-        "Outils": "Outils",
+        "Outils": "Strumenti",
         "Objets": "Oggetti",
         "Interactions": "Interazioni",
         "Résumé domotique": "Sommario Automazioni Domestiche",
@@ -100,7 +100,7 @@
         "Pause de ": "Pausa di",
         " seconde(s)": "Secondo(i)",
         "Activation du scénario : ": "Attivazione scena:",
-        "[Erreur] Aucune commande trouvée pour ": "[Erreur] Aucune commande trouvée pour",
+        "[Erreur] Aucune commande trouvée pour ": "[Errore] Nessun ordine trovato per",
         "Désactivation du scénario : ": "Disattivazione scena:",
         "Lancement du scénario : ": "Esecuzione scena:",
         "Lancement provoqué": "Esecuzione innescata",
@@ -128,7 +128,7 @@
         "Configuration": "Configurazione",
         "Sauvegarder": "Salva",
         "Informations": "Informazioni",
-        "Version du": "Version du",
+        "Version du": "Versione del",
         "Version Jeedom requise": "Versione Jeedom richiesta",
         "Auteur": "Autore",
         "Licence": "Licenza"
@@ -138,11 +138,11 @@
         "Nom": "Nome",
         "Statut": "Stato",
         "Configuration": "Configurazione",
-        "(Re)Démarrer": "(Re)Démarrer",
+        "(Re)Démarrer": "(Re)Start",
         "Arrêter": "Ferma",
         "Debug": "Debug",
         "Log": "Registro",
-        "Gestion automatique": "Gestion automatique",
+        "Gestion automatique": "Gestione automatica",
         "Dernier lancement": "Ultima esecuzione",
         "Local": "Local",
         "OK": "OK",
@@ -400,7 +400,7 @@
     "desktop/modal/expression.test.php": {
         "Exécuter": "Esegui",
         "Résultat": "Risultato",
-        "L\\'epression de test ne peut être vide": "L\\'epression de test ne peut être vide",
+        "L\\'epression de test ne peut être vide": "L\\'espressione di test non può essere vuoto",
         "Attention je pense qu\\'il y a un soucis car le résultat et le même que l\\'expression": "Attention je pense qu\\'il y a un soucis car le résultat et le même que l\\'expression",
         "Je vais évaluer : ": "Je vais évaluer :",
         "Résultat : ": "Résultat :"
