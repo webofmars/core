@@ -39,12 +39,12 @@ In diesem Abschnitt können sie einige Komponenten des Jeedom Kerns aktivieren/d
 
 image::../images/administration2.png[]
 
-* *Accès à l'interface d'administration* : permet d'accèder à une interface d'administration de la base, les informations à renseigner sont en-dessous
-* *Machine (hostname)* : localisation de la base
-* *Utilisateur* : nom d'utilisateur utilisé par Jeedom
-* *Mot de passe* : mot de passe d'accès à la base utilisé par Jeedom
+* *Zugriff auf die Administrationsoberfläche* : ermöglicht den Zugriff auf die Administrationsoberflächen-Datenbank, die nötigen Informationen sind unten einzugeben
+* *Geräte (hostname)* : Datenbank Standort
+* *Benutzer* : von Jeedom verwendeter Benutzername
+* *Passwort* : Passwort für den Zugriff auf die Datenbank von Jeedom 
 
-== Configuration réseau
+== Netzwerkkonfiguration
 
 image::../images/administration3.png[]
 
