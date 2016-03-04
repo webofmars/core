@@ -1363,7 +1363,7 @@
         "IP Maître": "Master IP",
         "Protocole": "Protokolle",
         "Adresse URL ou IP": "URL oder IP Adresse ",
-        "Complément (exemple : /jeedom)": "Ergänzen (Beispiel: / jeedom)",
+        "Complément (exemple : /jeedom)": "Ergänzung (Beispiel: /jeedom)",
         "Port": "Port",
         "Utiliser les DNS Jeedom": "Die Jeedom DNS benutzen",
         "Toute modification nécessite de redémarrer le service DNS Jeedom (ligne \"Gestion\" puis \"Redémarrer\")": "Jede Änderung erfordert einen Neustart des Jeedom DNS-Dienstes (Linie \"Verwaltung\" und \"(Neu)Start\")",

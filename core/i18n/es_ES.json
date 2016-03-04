@@ -7,9 +7,9 @@
         "Attention lancement de l'installation des dépendances": "Atención, iniciando instalación de las dependencias "
     },
     "core/class/cmd.class.php": {
-        "Evènement sur la commande ": "Evento de la orden",
+        "Evènement sur la commande ": "Evento del comando",
         " valeur : ": "Valor :",
-        "Exécution de la commande ": "Ejecución de la orden",
+        "Exécution de la commande ": "Ejecución del comando",
         " avec les paramètres ": "con los parámetros",
         "Aucun": "Ninguno",
         "Erreur execution de la commande ": "Error al ejecutar la orden",
@@ -238,8 +238,8 @@
         "Prochain": "Próximo",
         "Exécuter en avant plan": "Ejecutar en el primer plano",
         "A ne surtout pas utiliser si vous avez des 'sleep' dans le scénario. Attention dans ce mode vous ne pouvez savoir si le scénario est en cours.": "No utilizar si tiene 'sleep' en ela escena. Atención, no puede saber si la escena está en curso en este modo.",
-        "Enchainer les commandes sans attendre": "Encadenar las ordenes sin esperar",
-        "Enchaine les commandes sans verification que la commande précedente c'est bien éxecutée (Attention il faut que le plugin le supporte)": "Encadena las ordenes sin verificar que la orden anterior esté bien ejecutada (Atencion, el plugin lo debe soportar)",
+        "Enchainer les commandes sans attendre": "Encadenar los comandos sin esperar",
+        "Enchaine les commandes sans verification que la commande précedente c'est bien éxecutée (Attention il faut que le plugin le supporte)": "Encadena los comandos sin verificar que el comando anterior esté bien ejecutado (Atencion, el plugin lo debe soportar)",
         "Pas de log": "Ningún registro",
         "Le scénario n'écrit plus de log": "La escena no escribe mas registros",
         "Etat": "Estado",
@@ -420,7 +420,7 @@
         "Aucun": "Ningún",
         "Voir les équipements": "Ver dispositivos",
         "Non actif": "No activo",
-        "Voir les commandes": "Ver las ordenes",
+        "Voir les commandes": "Ver los comandos",
         "Configuration avancée": "Configuración avanzada",
         "Aller sur la configuration de l'équipement": "Ir a la configuración del dispositivo",
         "Non visible": "No visible",
@@ -455,7 +455,7 @@
         "Visible": "Visible",
         "Utilisé par": "Utilizado por",
         "Equipement": "Dispositivo",
-        "Commandes": "Ordenes",
+        "Commandes": "Comandos",
         "Scénario": "Escena",
         "Calcul et arrondit": "Cálculo y rondas",
         "Formule de calcul (#value# pour la valeur)": "Fórmula de cálculo (#value# para el valor)",
@@ -514,7 +514,7 @@
         "Retour à la ligne forcé avant le widget": "Envuelva forzada antes el widget",
         "après le widget": "Despues del widget",
         "Paramètres optionnels widget": "Parámetros opcionales widget",
-        "Sélection multiple de commandes": "Selección múltiple de ordenes",
+        "Sélection multiple de commandes": "Selección múltiple de comandos",
         "Enregistrement réussi": "Registro con éxito ",
         "Modification(s) appliquée(s) avec succès": "Modificación(es) aplicada(os) con éxito",
         "Valeur": "Valor",
@@ -620,7 +620,7 @@
         "Dashboard couleur commande": "Color de la orden en el dashboard",
         "Mobile couleur de fond": "Color de fondo (móvil)",
         "Mobile couleur commande": "Color de la orden (móvil)",
-        "Configuration des commandes": "Configuración de las ordenes",
+        "Configuration des commandes": "Configuración de los comandos",
         "Historique": "Historial",
         "Afficher les statistiques sur les widgets": "Ver las estadísticas de los widgets",
         "Période de calcul pour min, max, moyenne (en heures)": "Période de calcul pour min, max, moyenne (en heures)",
@@ -632,7 +632,7 @@
         "Période d'affichage des graphiques par defaut": "Período de visualización de los gráficos por defecto",
         "Push": "Push",
         "URL de push globale": "Url de push global",
-        "Mettez ici l'URL à appeler lors d'une mise à jour de la valeur des commandes. Vous pouvez utiliser les tags suivants : #value# (valeur de la commande), #cmd_id# (id de la commande) et #cmd_name# (nom de la commande)": "Ponga aquí la URL a llamar en una actualización de los valores de las ordenes. Puede utilizar las siguientes etiquetas : #value# (valor de la orden), #cmd_id# (id de la orden) y #cmd_name# (nombre del orden)",
+        "Mettez ici l'URL à appeler lors d'une mise à jour de la valeur des commandes. Vous pouvez utiliser les tags suivants : #value# (valeur de la commande), #cmd_id# (id de la commande) et #cmd_name# (nom de la commande)": "Ponga aquí la URL a llamar en una actualización de los valores de los comandos. Puede utilizar las siguientes etiquetas: #value# (valor de la orden), #cmd_id# (id del comando) y #cmd_name# (nombre del comando)",
         "Configuration du cache": "Configuración de caché",
         "Attention toute modification du moteur de cache necessite un redemarrage de Jeedom": "Atención, todo cambio en el motor de caché necesitará reiniciar Jeedom para ser efectivo",
         "Moteur de cache": "Motor de caché",
@@ -909,7 +909,7 @@
         "Edition complète": "Edición completada"
     },
     "desktop/js/view.js": {
-        "Vous êtes en mode édition vous pouvez déplacer les widgets, les redimensionner et changer l'ordre des commandes dans les widgets": "Está en el modo de edición, puede desplazar y cambiar el tamaño de los widgets y cambiar el orden de las órdenes de los widgets"
+        "Vous êtes en mode édition vous pouvez déplacer les widgets, les redimensionner et changer l'ordre des commandes dans les widgets": "Está en el modo de edición, puede desplazar y cambiar el tamaño de los widgets y cambiar el orden de los comandos de los widgets"
     },
     "desktop/php/view_edit.php": {
         "Créer une vue": "Crear una vista",
@@ -1089,20 +1089,20 @@
         "Groupe": "Grupo",
         "Demande": "Solicitud",
         "Synonyme": "Sinónimo",
-        "Remplace les mots par leur synonymes lors de la génération des commandes": "Reemplaza las palabras por sus sinónimos en el momento de la generación de las ordenes",
+        "Remplace les mots par leur synonymes lors de la génération des commandes": "Reemplaza las palabras por sus sinónimos en el momento de la generación de los comandos",
         "Réponse": "Respuesta",
         "Conversion binaire": "Conversión binaria",
-        "Convertir les commandes binaires": "Convertir órdenes binarias",
+        "Convertir les commandes binaires": "Convertir comandos binarios",
         "Utilisateurs autorisés": "Usuarios autorizados",
         "Liste des utilisateurs (login) séparés par un |": "Lista de usuarios (login) separados por una |",
         "Autoriser Jeedom à supprimer les demandes syntaxiquement incorrectes": "Autorizar a Jeedom para eliminar las solicitudes con formato incorrecto",
         "Regexp d'exclusion": "Expresión regular de exclusión",
         "Filtres": "Filtros",
-        "Limiter aux commandes de type": "Limitar a las órdenes de tipo",
-        "Limiter aux commandes ayant pour sous-type": "Limitar a los órdenes que tienen para subtipo",
-        "Limiter aux commandes ayant pour unité": "Limitar a las órdenes teniendo por unidad",
+        "Limiter aux commandes de type": "Limitar a los comandos de tipo",
+        "Limiter aux commandes ayant pour sous-type": "Limitar a los comandos que tienen subtipo",
+        "Limiter aux commandes ayant pour unité": "Limitar a los comandos teniendo por unidad",
         "Sans unité": "Sin unidad",
-        "Limiter aux commandes appartenant à l'objet": "Limitar a ordenes que pertenecen al objeto",
+        "Limiter aux commandes appartenant à l'objet": "Limitar a comandos que pertenecen al objeto",
         "Limiter aux plugins": "Limitar plugins",
         "Limiter aux categories": "Limitar categorías",
         "Limiter à l'équipement": "Limitar al dispositivo",
@@ -1596,7 +1596,7 @@
         "Historique": "Historial"
     },
     "desktop/js/dashboard.js": {
-        "Vous êtes en mode édition vous pouvez déplacer les widgets, les redimensionner et changer l'ordre des commandes dans les widgets": "Está en el modo de edición, puede desplazar y cambiar el tamaño de los widgets y cambiar el orden de las órdenes de los widgets"
+        "Vous êtes en mode édition vous pouvez déplacer les widgets, les redimensionner et changer l'ordre des commandes dans les widgets": "Está en el modo de edición, puede desplazar y cambiar el tamaño de los widgets y cambiar el orden de los comandos de los widgets"
     },
     "core/ajax/update.ajax.php": {
         "[START UPDATE]\n": "[START UPDATE]",
@@ -1627,7 +1627,7 @@
         "Veuillez d\\'abord sélectionner un": "Primero seleccione un",
         "Nom de l'équipement ?": "¿Nombre del dispositivo?",
         "Configuration de l'équipement": "Configuración del dispositivo",
-        "Veuillez activer l\\'équipement avant de tester une de ses commandes": "Por favor, active el dispositivo antes de probar una de sus ordenes",
+        "Veuillez activer l\\'équipement avant de tester une de ses commandes": "Por favor, active el dispositivo antes de probar uno de sus comandos",
         "Configuration commande": "Configuración orden"
     },
     "desktop/modal/eqLogic.configure.php": {
