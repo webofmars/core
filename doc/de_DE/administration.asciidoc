@@ -48,15 +48,15 @@ image::../images/administration2.png[]
 
 image::../images/administration3.png[]
 
-Partie très importante dans Jeedom, il faut absolument la configurer correctement sinon beaucoup de plugin risquent d'être non fonctionnels
+Das ist ein sehr wichtiger Teil in Jeedom, man muss ihn unbedingt richtig konfigurieren, andernfalls können viele Plugins nicht richtig funktionieren.
 
-* *Accès interne* : information pour joindre Jeedom à partir d'un équipement sur le même réseau
-** *Protocole* : le protocole à utiliser, souvent HTTP
-** *Adresse URL ou IP* : IP de Jeedom, à renseigner
+* *Interner Zugriff* : Daten, zum verbinden von Jeedom mit einem anderen Gerät in demselben Netzwerk
+* *Protokolle* : Das zu verwendende Protokoll, meistens HTTP
+** *URL oder IP Adresse* : Die Jeedom IP-Adresse eintragen
 ** *Complément (exemple : /jeedom)* : le fragment d'URL complémentaire (type /jeedom). Pour savoir si vous avez besoin de définir une valeur ici, regardez si quand vous vous connectez à Jeedom vous devez renseigner /jeedom après l'IP
 ** *Port* : le port, en général 80. Attention changer le port ici ne change pas le port réel de Jeedom qui restera le même
 ** *Statut* : Indique si la configuration réseau interne est correcte
-* *Accès externe* : information pour joindre Jeedom de l'extérieur. A ne remplir que si vous n'utilisez pas le DNS Jeedom
+* *Externer Zugriff* : Daten, um Jeedom von einem Externen Gerät zu verbinden. Nur ausfüllen wenn sie kein Jeedom DNS verwenden.
 ** *Protocole* : protocole utilisé pour l'accès extérieur
 ** *Adresse URL ou IP* : adresse ou ip externe si fixe
 ** *Complément (exemple : /jeedom)* :  le fragment d'URL complémentaire (type /jeedom). Pour savoir si vous avez besoin de définir une valeur ici, regardez si quand vous vous connectez à Jeedom vous devez renseigner /jeedom après l'IP
