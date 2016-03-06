@@ -6,9 +6,9 @@ image::../images/history.JPG[]
 
 == Bestandteil
 
-Ici est décrit le principe d'historisation de Jeedom. Il n'est nécessaire de les comprendre que si vous rencontrez des soucis d'historisation ou que vous voulez modifier les réglages de l'historisation. Les réglages par défaut conviennent dans la plupart des cas.
+Hier ist das Prinzip der Archivierung von Jeedom beschrieben. Es ist erforderlich es zu begreifen, wenn Sie Probleme mit der Archivierung oder die Protokoll-Einstellungen ändern möchten. Die Standardeinstellungen eignen sich aber in den meisten Fällen.
 
-=== Protokollierung-Methode
+=== Protokollierungs-Methode
 
 Un des premiers éléments est de savoir si la commande que vous historisez est de type évènement ou non : 
 
@@ -83,27 +83,27 @@ A partir de là, vous avez plusieurs possibilités de réglages. En ce qui conce
 * *Mode de lissage* : mode de lissage ou d'archivage permet de choisir la manière d'archiver la donnée ; par défaut c'est une moyenne ; il est aussi possible de choisir le maximum, le minimum, ou aucun ; aucun permet de dire à Jeedom qu'il ne doit pas réaliser d'archivage sur cette commande (aussi bien sur la premiere période des 5 min qu'avec la tache d'archivage). Cette option est dangereuse car Jeedom conserve tout : il va donc y avoir beaucoup plus de données conservées.
 * *Purger l'historique si plus vieux de* : cette option permet de dire à Jeedom de supprimer toutes les données plus vieilles qu'une certaine période. Peut être pratique pour ne pas conserver de données si ça n'est pas nécessaire et donc limiter la quantité d'informations enregistrées par Jeedom.
 
-== Affichage d'un graphique
+== Diagramm anzeigen
 
-Il existe plusieurs moyens d'accéder à l'historique :
+Es gibt mehrere Möglichkeiten, um die Chronik anzuzeigen :
 
-* en mettant une zone graphe dans une vue (voir plus bas),
-* en cliquant sur la commande voulue dans un widget,
-* en allant dans la page historique qui permet de superposer différentes courbes et de combiner les styles (aire, courbe, barre).
+* einen Diagrammbereich in einer Ansicht einsetzen (siehe unten),
+* Durch Klick auf den gewünschten Befehl in einem Widget,
+* Indem sie auf die Chronik Seite gehen, sie ermöglicht die verschiedenen Kurven zu überlagern und die Stilrichtungen zu kombinieren (Fläche, Kurve, Balken).
 
-Si vous affichez un graphique par la page historique ou en cliquant sur le widget, vous avez accès à plusieurs options d'affichage : 
+Wenn Sie eine Diagramm auf der Chronik Seite oder durch einen Klick auf das Widget angezeigt bekommen, haben Sie Zugriff auf mehrere Anzeigeoptionen : 
 
 image::../images/history4.JPG[]
 
 On retrouve en haut à droite la période d'affichage (ici sur la dernière semaine car, par défaut je veux que ça soit seulement une semaine - voir 2 paragraphes au-dessus), ensuite viennent les paramètres de la courbe (ces paramètres sont gardés d'un affichage à l'autre ; vous n'avez donc qu'à les configurer une fois).
 
-* *Escalier* : permet d'afficher la courbe sous la forme d'un escalier ou d'un affichage continu.
-* *Variation* : affiche la différence de valeur par rapport au point précédent.
-* *Ligne* : affiche le graphique sous forme de lignes.
-* *Aire*  : affiche le graphique sous forme d'une aire. 
-* *Colonne** : affiche le graphique sous forme de barres.
+* *Treppe* : Zeigt die Kurve in Form einer Treppe oder sie wird kontinuierlich wiedergegeben.
+* *Wertänderung* : Zeigen den Unterschied der Werte im Vergleich zu dem vorherigen Punkt an.
+ * *Linie* : Zeigt das Diagramm in einer Linie an.
+* *Fläche* : Zeigt das Diagramm als eine Fläche an. 
+* *Balken** : Zeigt das Diagramm in einer Balken Form an.
 
-Voici quelques exemples : 
+Hier einige Beispiele : 
 
 image::../images/history5.JPG[]
 
@@ -111,44 +111,44 @@ image::../images/history6.JPG[]
 
 image::../images/history7.JPG[]
 
-Sur ce dernier, on remarque une plus grande précision sur les dernières données (principe de l'archivage).
+Auf letzteren gibt es eine höhere Genauigkeit auf die aktuellen Daten (Prinzip der Archivierung).
 
-== Graphique sur les vues et les designs
+== Grafik auf der Ansicht und dem Design
 
-Vous pouvez aussi afficher les graphiques sur les vues (nous verrons ici les options de configuration et non comment faire, pour cela il faut se rendre sur la documention des vues ou des designs en fonction). Voici les options : 
+Sie können die Grafik auch in der Ansicht anzeigen (hier werden wir die Konfigurationsoptionen angezeigt und nicht wie, dafür muß man sich in die Dokumention der Ansicht oder des Designs zur Funktion begeben). Hier sind die Optionen : 
 
 image::../images/history13.JPG[]
 
-Une fois une donnée activée, vous pouvez choisir : 
+Sobald die Daten aktiviert sind, können Sie wählen : 
 
-* *Couleur* : la couleur de la courbe.
-* *Type* : le type de graphique (aire, ligne ou colonne).
-* *Echelle* : vu que vous pouvez mettre plusieurs courbes (données) sur le même graphique, il est possible de distinguer les échelles (droite ou gauche).
-* *Escalier* : permet d'afficher la courbe sous la forme d'un escalier ou d'un affichage continu
-* *Empiler* : permet d'empiler les valeurs des courbes (voir en dessous pour le résultat).
-* *Variation* : affiche la différence de valeur par rapport au point précédent.
+* *Farbe* : Die Farbe der Kurve.
+* *Typ* : Der Typ des Diagramms (Fläche, Linie oder Balken). 
+* *Maßstab* : Weil Sie mehrere Diagramme (Daten) in der gleichen Grafik anzeigen können, ist es mit der Einstellung möglich, den Maßstab (rechts oder links) zu unterscheiden.
+* *Treppe* : Zeigt die Kurve in Form einer Treppe oder sie wird kontinuierlich wiedergegeben.
+* *Stapeln* : Erlaubt, die Werte der Kurven zu stapeln (siehe das Ergebnis darunter)
+* *Wertänderung* : Zeigen den Unterschied der Werte im Vergleich zu dem vorherigen Punkt an.
 
 Hier ist ein Beispiel von übereinander liegenden Kurven:
 
 image::../images/history14.JPG[]
 
-== Option sur la page d'historique
+== Optionen auf der Chronik Seite
 
-La page d'historique donne accès à quelques options supplémentaires : 
+Die Chronik Seite bietet Zugriff auf einige zusätzliche Optionen : 
 
 image::../images/history15.JPG[]
 
 [TIP]
-Il suffit de cliquer sur le nom de l'objet pour le déplier ; apparaissent les commandes historisées qui peuvent être graphées.
+Klicken Sie einfach auf den Namen des Objekts um es zu entfalten ; angezeigt werden die archivierten Befehle, die ein Diagramm sein können.
 
 [TIP]
-La couleur d'arrière-plan des objets de cette liste peuvent être modifiées à partir de la configuration de l'objet.
+Die Hintergrundfarbe der Objekte in dieser Liste kann in der Konfiguration des Objektes verändert werden.
 
-Devant chaque donnée pouvant être graphée, vous retrouvez deux icônes : 
+Vor jedem Datensatz der als Diagramm angezeigt werden kann, finden Sie zwei Symbole : 
 
-* *Poubelle* : permet de supprimer les données enregistrées ; lors du clic, Jeedom demande s'il faut supprimer les données avant une certaine date ou toutes les données.
-* *Flèche* : permet d'avoir un export CSV des données historisées.
+* *Papierkorb* : Löscht die gespeicherten Daten ; beim Klicken, fragt Jeedom, ob die Daten von einem bestimmten Datum oder alle Daten zu löschen sind.
+* *Pfeil* : Erlaubt einen CSV-Export archivierter Daten.
 
-== Suppression de valeur incohérente
+== Löschen von inkonsistenten Wert
 
 Parfois, il se peut que vous ayez des valeurs incohérentes sur les graphiques. Cela est souvent dû à un souci d'interprétation de la valeur. Il est possible de supprimer ou changer la valeur du point en question, en cliquant sur celui-ci directement sur le graphique ; de plus, vous pouvez régler le minimum et le maximum autorisés afin d'éviter des problèmes futurs.

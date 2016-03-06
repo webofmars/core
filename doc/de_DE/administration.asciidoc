@@ -54,55 +54,55 @@ Das ist ein sehr wichtiger Teil in Jeedom, man muss ihn unbedingt richtig konfig
 * *Protokolle* : Das zu verwendende Protokoll, meistens HTTP
 ** *URL oder IP Adresse* : Die Jeedom IP-Adresse eintragen
 ** *Complément (exemple : /jeedom)* : le fragment d'URL complémentaire (type /jeedom). Pour savoir si vous avez besoin de définir une valeur ici, regardez si quand vous vous connectez à Jeedom vous devez renseigner /jeedom après l'IP
-** *Port* : le port, en général 80. Attention changer le port ici ne change pas le port réel de Jeedom qui restera le même
-** *Statut* : Indique si la configuration réseau interne est correcte
+** *Port* : Der Port, im allgemeinen 80. Achtung, den Port hier zu ändern, ändert tatsächlich nicht den Jeedom Port, der wird derselbe bleiben
+** *Status* : Zeigt an, ob die interne Netzwerkkonfiguration korrekt ist
 * *Externer Zugriff* : Daten, um Jeedom von einem Externen Gerät zu verbinden. Nur ausfüllen wenn sie kein Jeedom DNS verwenden.
-** *Protocole* : protocole utilisé pour l'accès extérieur
-** *Adresse URL ou IP* : adresse ou ip externe si fixe
+** *Protokolle* : verwendetes Protokoll für den Zugriff von außen 
+** *URL oder IP Adresse* : wenn eine externe Adresse oder IP fest sein soll
 ** *Complément (exemple : /jeedom)* :  le fragment d'URL complémentaire (type /jeedom). Pour savoir si vous avez besoin de définir une valeur ici, regardez si quand vous vous connectez à Jeedom vous devez renseigner /jeedom après l'IP
-** *Port* : le port, en général 80. Attention changer le port ici ne change pas le port réel de Jeedom qui restera le même
-** *Statut* : Indique si la configuration réseau externe est correcte
-* *Gestion avancée* : peut ne pas apparaitre en fonction de la compatibilité avec votre matériel
-** *Désactiver la gestion du réseaux par Jeedom* : indique à Jeedom de ne pas monitorer le réseau (à activer si jeedom n'est connecté à aucun réseau)
-* *DNS Jeedom* : permet un accès distant à votre Jeedom sans avoir besoin d'un DNS, d'une IP fixe ou d'ouvrir les ports de votre box
-** *Utiliser les DNS Jeedom* : active les DNS Jeedom (attention cela nécessite au moins un service pack)
-** *Statut http* : statut du DNS http
-** *Gestion* : permet d'arrêter et relancer le service DNS
+** *Port* : Der Port, im allgemeinen 80. Achtung, den Port hier zu ändern, ändert tatsächlich nicht den Jeedom Port, der wird derselbe bleiben
+** *Status* : Zeigt an, ob die externe Netzwerkkonfiguration korrekt ist
+* *Erweiterte Verwaltung* : abhängig von der Kompatibilität ihrer Hardware kann es möglicherweise nicht angezeigt werden
+** *Deaktivieren der Jeedom Netzwerkverwaltung* : giebt an ob Jeedom das Netzwerk überwachen soll  (ist zu Aktivieren, wenn Jeedom mit einem Netzwerk verbunden ist)
+* *Jeedom DNS* : erlaubt ein entfernten Zugang zu Ihrem Jeedom ohne ein DNS, eine feste IP oder offene Ports auf Ihrem System
+** *Die Jeedom DNS benutzen* : aktive Jeedom DNS (Achtung, das erfordert mindestens ein Servicepack)
+** *http Status* : http Status der DNS
+** *Verwaltung* : ermöglicht das Beenden und Neustarten des DNS Dienstes
 
 [TIP]
-Si vous êtes en HTTPS le port est le 443 (par defaut) et en HTTP le port est par defaut le 80
+Wenn Sie den HTTPS-Port haben, ist der Port 443 (Standard) und der HTTP-Port ist standardmäßig 80
 
 [WICHTIG]
 Cette partie est juste là pour expliquer à Jeedom son environnement : une modification du port ou de l'IP ici ne changera pas le port ou l'IP de Jeedom. Pour cela il faut se connecter en SSH et éditer le fichier /etc/network/interfaces pour l'IP et les fichiers etc/nginx/sites-available/default et etc/nginx/sites-available/default_ssl (pour le HTTPS). En cas de mauvaise manipulation de votre Jeedom, l'équipe Jeedom ne pourra etre tenue responsable et pourra refuser toute demande de support.
 
 [NOTE]
-Vous pouvez voir link:http://blog.domadoo.fr/2014/10/15/acceder-depuis-lexterieur-jeedom-en-https[ici] un tutoriel pour mettre en place un certificat HTTPS auto-signé
+Sie können link:http://blog.domadoo.fr/2014/10/15/acceder-depuis-lexterieur-jeedom-en-https[hier] eine Tutoriel sehen, wie ein selbst signiertes HTTPS Zertifikat eingerichtet wird
 
 [WICHTIG]
-Si vous n'arrivez pas à faire fonctionner le DNS Jeedom, regardez la configuration du pare-feu et filtre parental de votre box (sur livebox il faut par exemple le pare-feu en moyen)
+Wenn Sie die DNS-Jeedom betreiben können, betrachten Sie die Konfiguration der Firewall und Kindersicherung Filter von der Box (Livebox sollte z. B. die Firewall in der Mittelstellung sein)
 
-== Configuration des couleurs
+== Farbeinstellungen
 
-La colorisation des widgets est effectuée en fonction de la catégorie d'appartenance du widget qui est définie dans la configuration de chaque module (voir plugin Z-Wave, RFXCOM...etc). Parmi les catégories on retrouve le chauffage, les lumières, les automatismes etc...
+Die farbliche Kennzeichnung der Widgets erfolgt entsprechend der Kategorie des Widgets, die in der Konfiguration der einzelnen Module definiert ist (siehe Plugin Z-Wave, RFXCOM... etc.). Die Kategorien umfassen Heizung, Licht, Automation etc....  
 
-Pour chaque catégorie, on pourra choisir une couleur différente entre la version desktop et la version mobile. Il y a également 2 types de couleurs, les couleurs de fond des widgets, et les couleurs des commandes lorsque le widget est de type graduel, par exemple les lumières, les volets, les températures.
+Für jede Kategorie, können wir eine andere Farbe zwischen der Desktop-Version und Mobile-Version wählen. Außerdem gibt es zwei Arten von Farben, Widget Hintergrundfarben  und Befehls Farbe, wenn das Widget erfolgt schrittweise Typ, zB Beleuchtung, Jalousien, Temperaturen.
 
 image::../images/display6.png[]
 
-En cliquant sur la couleur une fenêtre s'ouvre, permettant de choisir sa couleur.
+Durch Klick auf die Farbe öffnet sich ein Fenster, in dem Sie die Farbe wählen können.
 
 image::../images/display7.png[]
 
 [TIP]
-N'oubliez pas de sauvegarder après toute modification
+Vergessen Sie nicht, nach jeder Veränderung zu speichern.
 
-== Configuration des commandes
+==  Befehle Konfigurieren
 
 image::../images/administration4.png[]
 
-* *Historique* : voir link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-history.html#_configuration_général_de_l_historique[ici]
-* *Push*
-** *URL de push globale* :  permet de rajouter une URL à appeler en cas de mise à jour d'une commande. Vous pouvez utiliser les tags suivant : \#value# pour la valeur de la commande, \#cmd_name# pour le nom de la commande, \#cmd_id# pour l'identifiant unique de la commande, \#humanname# pour le nom complet de la commande (ex : \#[Salle de bain][Hydrometrie][Humidité]#)
+* *Chronik* : siehe link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-history.html#_configuration_général_de_l_historique[hier]
+* *drücken*
+** *Globale Push URL* : Erlaubt eine URL hinzuzufügen, die bei Aktualisierung eines Befehls aufzurufen ist. Sie können die folgenden Tags benutzen :  \#value# für den Wert des Befehls, \#cmd_name# für den Namen des Befehls, \#cmd_id# für die eindeutige Kennung des Befehls, \#humanname# für den vollständigen Namen des Befehls (z.B. \#[Bad][Hydrometrie][Feuchtigkeit]#)
 
 == Configuration des intérations
 
