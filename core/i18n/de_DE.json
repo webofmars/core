@@ -895,7 +895,7 @@
         "Ligne": "Linie",
         "Areaspline": "Fläche",
         "Barre": "Balken",
-        "Variation": "Variante",
+        "Variation": "Wertänderung",
         "Escalier": "Treppe"
     },
     "desktop/js/history.js": {
@@ -948,7 +948,7 @@
         "Echelle": "Maßstab",
         "Escalier": "Treppe",
         "Empiler": "Stapel",
-        "Variation": "Variante",
+        "Variation": "Wertänderung",
         "Bleu": "Blau",
         "Rouge": "Rot",
         "Vert": "Grün",
@@ -1591,7 +1591,7 @@
         "Ligne": "Linie",
         "Aire": "Fläche",
         "Colonne": "Spalte",
-        "Variation": "Variante",
+        "Variation": "Wertänderung",
         "Escalier": "Treppe",
         "Historique": "Chronik"
     },
