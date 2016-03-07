@@ -1,8 +1,8 @@
-= Résumé domotique
+= Übersicht Haus-Automatisierung
 
 Cette page permet d'avoir un resumer sur sa domotique et donne aussi a des fonciton d'organisation des équipements et commandes, a de la configuraiton avancée des équipements et commande ainsi qu'a des possibilité de configuration d'affichage. Elle se décompose en un onglet "Ma domotique" et un un onglet "Configuration de l'affichage".
 
-Cette page est accessible par Outils -> Résumé domotique : 
+Diese Seite ist über Werkzeuge -> Übersicht Haus-Automatisierung erreichbar : 
 
 image::../images/display.png[]
 

@@ -151,4 +151,4 @@ Vor jedem Datensatz der als Diagramm angezeigt werden kann, finden Sie zwei Symb
 
 == Löschen von inkonsistenten Wert
 
-Parfois, il se peut que vous ayez des valeurs incohérentes sur les graphiques. Cela est souvent dû à un souci d'interprétation de la valeur. Il est possible de supprimer ou changer la valeur du point en question, en cliquant sur celui-ci directement sur le graphique ; de plus, vous pouvez régler le minimum et le maximum autorisés afin d'éviter des problèmes futurs.
+Manchmal kann es sein, dass Sie inkonsistente Werte in den Diagrammen haben. Oft ist das auf eine Auslegung der Interpretation des Wertes zurückzuführen. Sie können den Wert der betreffenden Stelle löschen oder ändern, indem sie direkt auf die Grafik klicken; darüber hinaus können Sie das zulässige Minimum und das Maximum festlegen, um zukünftige Probleme zu vermeiden.
