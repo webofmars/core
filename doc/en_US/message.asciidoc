@@ -1,4 +1,4 @@
-= Centre des messages
+= Message center
 
 Le centre des messages regroupe tous les messages importants que vous devez regarder.
 

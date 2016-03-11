@@ -2,7 +2,7 @@
 
 Voici la partie la plus importante dans la domotique : les scénarios. Véritable cerveau de la domotique c’est ce qui permet d’interagir avec le monde réel de manière "intelligente".
 
-== La page scénario
+== The scenario page
 
 Pour y acceder rien de plus simple, il suffit d'aller sur Outils -> Scénario : 
 

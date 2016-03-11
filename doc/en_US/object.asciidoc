@@ -1,4 +1,4 @@
-= Objet
+= Object
 
 Le sous-menu Objets, permet de définir l'arborescence de sa domotique. Elle se fait en créant ce qui s'appelle des objets. Accessible à partir de là : 
 

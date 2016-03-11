@@ -1,4 +1,4 @@
-= Sauvegarde et restauration
+= Saving and re-establishment
 
 La sauvegarde et restauration de Jeedom permet de sauvegarder celui-ci et de le restaurer sur lui-même ou sur un autre Jeedom.
 
