@@ -46,7 +46,7 @@ image::../images/plan6.png[]
 
 On retrouve ici : 
 
-* *Général*
+* *General*
 ** *Nom* : Le nom de votre design
 ** *Icône* : Une icone pour celui-ci (apparait dans le menu de choix de design)
 ** *Disponible sur téléphone* : Rend ce design visible dans la liste des designs en version mobile
@@ -81,7 +81,7 @@ image::../images/plan10.png[]
 
 Ici on a : 
 
-* *Général*
+* *General*
 ** *Taille du widget* : permet de definir un ratio de taille de widget, par exemple ici il ne fera que 65% de sa taille
 ** *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
 ** *Couleur des icônes et textes* : permet de changer la couleur des icones et des textes (attention à bien passer defaut sur Non)
@@ -139,7 +139,7 @@ Un double clic dessus vous amenera à la configuration de cette élement scénar
 
 image::../images/plan17.png[]
 
-* *Général*
+* *General*
 ** *Taille du widget* : permet de definir un ratio de taille de widget, par exemple ici il ne fera que 65% de sa taille
 ** *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
 ** *Couleur des icônes et textes* : permet de changer la couleur des icones et des textes (attention à bien passer defaut sur Non)

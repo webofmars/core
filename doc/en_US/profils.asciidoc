@@ -44,7 +44,7 @@ image::../images/profils5.png[]
 
 Vous permet de definir certain comportement de l'interface :
 
-* *Général*
+* *General*
 ** *Ne pas masquer les menus automatiquement* : indique à Jeedom de ne pas masquer le panneau de gauche, lorsqu'il existe, pour rappel ce panneau est disponible sur la pluspart des pages des plugins, ainsi que la page des scénario, des interactions, des objets....
 * *Page par défaut*
 ** *Desktop* : page par defaut à afficher lors de la connexion en desktop

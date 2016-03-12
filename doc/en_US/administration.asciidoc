@@ -94,7 +94,7 @@ En cliquant sur la couleur une fenêtre s'ouvre, permettant de choisir sa couleu
 image::../images/display7.png[]
 
 [TIP]
-N'oubliez pas de sauvegarder après toute modification
+Don't forget to save after any changes
 
 == Configuration des commandes
 
@@ -115,7 +115,7 @@ Voir link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-interact.html
 image::../images/administration6.png[]
 
 [IMPORTANT]
-Il n'est pas recommandé de modifier ces paramètres
+It is not advised to change the settings
 
 * *Rattrapage maximum autorisé (en minutes, -1 pour infini)* : délai de rattrapage maximum en minute pour un Job au cas où son lancement serait passé
 * *Crontask : temps d'exécution max (en minutes)* : durée maximum par défaut d'une tache cron
@@ -137,8 +137,8 @@ image::../images/administration8.png[]
 * *Hôte* : serveur hébergeant l'AD
 * *Domaine* : domaine de votre AD
 * *Base DN* : base DN de votre AD
-* *Nom d'utilisateur* : nom d'utilisateur pour que Jeedom se connecte à l'AD
-* *Mot de passe* : mot de passe pour que Jeedom se connecte à l'AD
+* *Username* : username to Jeedom to connect to the AD
+* *Password* : Password to Jeedom to connect to the AD
 * *Filtre (optionnel)* : filtre sur l'AD (pour la gestion des groupes par exemple)
 * *Autoriser REMOTE_USER* : Active le REMOTE_USER (utilisé en SSO par exemple)
 
@@ -149,13 +149,13 @@ image::../images/administration9.png[]
 * *Nombre d'échecs avant désactivation de l'équipement* : nombre d'échecs de communication avec l'équipement avant desactivation de celui-ci (un message vous préviendra si cela arrive)
 * *Seuils des piles* : permet de gerer les seuils d'alertes globaux sur les piles
 
-== Market et mise à jour
+== Market and update
 
 image::../images/administration10.png[]
 
-* *Adresse* : adresse du market
+* *Address* : market address
 * *Nom d'utilisateur* : votre nom d'utilisateur sur le market
-* *Mot de passe* : votre mot de passe du market
+* *Password* : your market password
 * *Installer automatiquement les widgets manquants* : autorise Jeedom à installer automatiquement les widgets manquants (il faut le plugin widget)
 * *Voir les modules en beta (à vos risques et périls)* : permet de voir les plugins, widgets... beta
 * *Faire une sauvegarde avant la mise à jour* : indique à Jeedom de faire un backup avant chaque mise à jour
@@ -164,5 +164,5 @@ image::../images/administration10.png[]
 [NOTE]
 Seul les betatesteurs peuvent voir la branche beta de Jeedom
 
-[ATTENTION]
+[CAUTION]
 L'option URL est dangereuse et reserver à un public d'expert. Toute demande de support après la mise en place de cette option sera systématiquement refusé

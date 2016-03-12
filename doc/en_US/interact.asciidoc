@@ -22,7 +22,7 @@ L'intérêt des interactions réside dans l'intégration simplifié dans d'autre
 
 Avec un seul mécanisme sur d'autre système ont peux donc contrôler tout Jeedom, ce qui permet une grande souplesse et d'éviter les bugs en cas de modification de la configuration de vos équipements comme se serais le cas avec un accès direct via l'url de chaque commande.
 
-== Premier pas
+== First step
 
 === Page accueil des interactions
 
@@ -37,16 +37,16 @@ image::../images/interact002.png[]
 [TIP]
 Comme à beaucoup d'endroits sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d'accès rapide (vous pouvez à partir de votre profil le laisser toujours visible).
 
-* En haut de page, on trouve 3 boutons :
-** *1* Le bouton "Ajouter" qui permet de créer de nouvelle interaction.
-** *2* Le bouton "Régénérer" qui vas recréer toutes les interactions (peut être très long > 5min).
-** *3* Le bouton "Tester" qui permet d'ouvrir un boite de dialogue pour écrire et tester une phrase.
+* On top page, there are 3 buttons:
+** *1* The button "Add" allows to create new interaction.
+** *2* The button "Regenerate" which will recreate all interactions (can be very long > 5min).
+** *3* The button "Test" which allows to open a dialog box to write and test a sentence.
 
 [TIP]
 Si vous avez une interaction qui génère les phrase pour les lumières par exemple, et que vous ajoutez un nouveau module de commande de lumière, il vous faudra soit régénérer toutes les interactions soit allé dans l'interaction en question et la re-sauver pour créer les phrase de ce nouveau module.
 
 
-=== Créer-Modifier une interaction
+=== Create-Change an interaction
 
 Le principe de création est assez simple, on va définir une phrase modèle génératrice qui va permettre à Jeedom de créer une ou plusieurs centaines d’autres phrases qui seront des combinaisons possibles du modèle.
 
@@ -62,9 +62,9 @@ Une fois l'interaction créer ou un clique sur une interaction existante pour la
 
 image::../images/interact003.png[]
 
-Ici vous trouvez 2 zones avec plusieurs élément en leur sein : 
+Here you will find 2 zones with several elements within them: 
 
-* *Général*
+* *General*
 ** *Nom* : nom de l'interaction (peut être vide, le nom remplace le texte de la demande dans la liste des interactions).
 ** *Groupe* : groupe de l'interaction, cela permet de les organiser (peut être vide, sera donc dans le groupe "aucun").
 ** *Demande* : la phrase modèle génératrice (obligatoire).
@@ -81,7 +81,7 @@ Ici vous trouvez 2 zones avec plusieurs élément en leur sein :
 ** *Limiter à la catégorie* : permet de limiter la génération à une ou plusieurs catégorie.
 ** *Limiter à l'équipement* : permet de limiter la génération à un seul équipement/module (Jeedom crée la liste automatiquement à partir des équipement/module que vous avez).
 * *Action* : à utiliser si vous voulez cibler une ou plusieurs commande(s) spécifique(s) ou passer des paramètres particulier.
-* *Phrases générées*
+* *Generated sentences*
 ** *Phrases générées* : Bouton qui permet de voir les phrases générer par la phrase modèle génératrice (Vous devez sauver l'interaction pour générer ou régénérer les phrases).
 ** *Nombre de phrases générées* : nombre de phrases générées.
 
@@ -102,7 +102,7 @@ image::../images/interact005.png[]
 Dans les 2 exemples si dessus, la phrase modèle est identique mais les actions qui en découle change en fonction de ce qui est configurer dans la partie "Action", ont peux donc déjà avec une interaction simple à phrase unique imaginer des actions combinée entre divers commande et scénario (ont peux aussi déclencher des scénarios dans la partie action des interactions).
 
 [TIP]
-Pour ajouter un scénario, créer une nouvelle action, écrire "scenario" sans accent appuyer sur la touche tabulation de votre clavier pour faire apparaitre le sélecteur de scénario.
+To add a scenario, create a new action, write "scenario" without accent dial on tabulation on your keyboard in order to make the scenario selector appear.
 
 
 ==== Interaction multiple commande
@@ -130,7 +130,7 @@ image::../images/interact008.png[]
 On peux voir ici une syntaxe un peu nouvelle pour les synonymes, un nom de commande peux avoir plusieurs synonyme, ici "on" a comme synonyme "allume" et "allumer", la syntaxe c'est donc "#nom de la commande#" *#=#* "#synonyme 1#"*#,#* "#synonyme 2#" (on peux mettre autant de synonyme que l'on veut), puis pour ajouter des synonymes pour un autre nom de commande il suffit d'ajouter après le denier synonyme une barre verticale "#|#" suite de laquelle vous pouvez à nouveau nommer la commande qui vas avoir des synonymes comme pour la première partie.
 
 Bien c'est déjà mieux mais il manque encore pour la commande "on" "entrée" le "l' " et pour d'autre le "la" ou "le" ou "un" ect...
-On pourrais modifier le nom de l'équipement pour l'ajouter, ce serais une solution, si non on peux utiliser les variations dans la demande, cela consiste à lister une série de mot possible à un emplacement de la phrase, Jeedom va donc générer des phrases avec ses variations.
+We could change the equipment name to add it, it would be a solution, otherwise we can use variations in the question, it consists in listing a series of possible word to a position in the sentence, Jeedom will generate sentences with its variations.
 
 image::../images/interact009.png[]
 
@@ -150,7 +150,7 @@ Personnellement je trouve intéressent d'avoir quelques incohérence du style "u
 ===== Personnaliser les réponses
 
 Jusqu'à présent comme réponse à une interaction nous avions une simple phrase qui n'indique pas grand-chose à part que quelque chose c'est passer.
-L'idée serait que Jeedom nous indique ce qu'il a fait un peu plus précisément.
+The idea would be that Jeedom indicates us what he's done more precisely. 
 C'est là qu'interviens le champ réponse dans le quelle ont vas pouvoir personnaliser le retour en fonction de la commande exécuter.
 
 Pour se faire nous allons à nouveau utiliser les Tag Jeedom
@@ -162,7 +162,7 @@ Ont peux aussi ajouter n'importe quelle valeur d'une autre commande comme une te
 
 image::../images/interact012.png[]
 
-===== Conversion binaire
+===== Binary conversation
 Les conversions binaire s'applique aux commandes de type info dont le sous-type est binaire (retourne 0 ou 1 uniquement) il faut donc activer les bon filtre comme ont peux le voir sur la capture un peux plus bas (pour les catégories ont peux toutes les coché, pour l'exemple j'ai gardé que lumière).
 
 image::../images/interact013.png[]
@@ -170,7 +170,7 @@ image::../images/interact013.png[]
 Comme ont peux le voir ici, j'ai conservé quasiment la même structure pour la demande (c'est volontaire pour se concentrer sur les spécificités), ont adapté bien sur les synonymes pour avoir quelque chose de cohérant, par contre pour la réponse il est #impératif# de mettre uniquement \#valeur# qui représente le 0 ou 1 que Jeedom vas remplacer par la conversion binaire qui suit.
 
 Le champ conversion binaire dois contenir 2 réponses, en premier la réponse si la valeur de la commande vaut 0 puis pour la séparer de la réponse si la commande vaut 1 une barre vertical "|".
-Ici les réponses sont simplement non et oui mais ont pourrais y mettre une phrase un peux plus longue.
+Answers are either yes or no, but we could add a longer sentence.
 
 [WARNING]
 Les tags ne fonctionnent pas dans les conversions binaires.

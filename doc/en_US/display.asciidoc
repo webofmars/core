@@ -96,7 +96,7 @@ En dessous on retrouve des paramètre optionnel d'affichage que l'on peut passer
 image::../images/display11.png[]
 
 [TIP]
-N'oubliez pas de sauvegarder après toute modification
+Don't forget to save after any changes
 
 === Batterie
 
@@ -172,4 +172,4 @@ Vous pouvez :
 En dessous on retrouve des paramètre optionnel d'affichage que l'on peut passer au widget. Ces parametres dependent du widget en question, il faut donc regarder sa fiche sur le market pour les connaitres.
 
 [TIP]
-N'oubliez pas de sauvegarder après toute modification
+Don't forget to save after any changes
