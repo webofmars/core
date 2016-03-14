@@ -474,7 +474,7 @@ En réponse, Jeedom vous retournera la réponse qui correspond à l'interaction 
 image::../images/interact13.JPG[]
 
 
-== Configuration
+== Konfiguration
 
 La configuration est accessible à partir du menu Configuration (en haut à droite) puis la partie "Configuration des interactions" :
 

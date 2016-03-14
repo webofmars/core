@@ -2,7 +2,7 @@
 
 La sauvegarde et restauration de Jeedom permet de sauvegarder celui-ci et de le restaurer sur lui-même ou sur un autre Jeedom.
 
-== Configuration
+== Konfiguration
 
 Accessible depuis Administration -> Sauvegarde : 
 

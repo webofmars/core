@@ -17,7 +17,7 @@ Cette page liste tous vos esclaves et permet de voir en détail chacun d'entre e
 [WICHTIG]
 Cette documentation ne décrit pas volontairement tous les menus disponibles car ils ne sont qu'un report des menus existants sur le maître pour centraliser la configuration. Il faut donc se reporter à la documentation existante pour avoir le détail de fonctionnement.
 
-== Configuration
+== Konfiguration
 
 La configuration est assez simple, il faut tout d'abord décider le système maître et esclave. 
 Ensuite sur l'esclave, il faut aller dans Administration -> Configuration dans la partie "Configuration réseau" 
