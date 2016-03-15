@@ -80,7 +80,7 @@
         "Version mobile": "Versión móvil",
         "Version": "Versión",
         "Aide sur la page en cours": "Ayuda de la página en curso",
-        "Envoyer un rapport de bug": "Enviar un reporte de bug",
+        "Envoyer un rapport de bug": "Reportar un bug",
         "Générale": "General",
         "Détaillée": "Detallado",
         "Ouverture d'un ticket": "Abrir un ticket",
@@ -236,8 +236,8 @@
         "Programmation": "Programación",
         "Précédent": "Anterior",
         "Prochain": "Próximo",
-        "Exécuter en avant plan": "Ejecutar en el primer plano",
-        "A ne surtout pas utiliser si vous avez des 'sleep' dans le scénario. Attention dans ce mode vous ne pouvez savoir si le scénario est en cours.": "No utilizar si tiene 'sleep' en ela escena. Atención, no puede saber si la escena está en curso en este modo.",
+        "Exécuter en avant plan": "Ejecutar en primer plano",
+        "A ne surtout pas utiliser si vous avez des 'sleep' dans le scénario. Attention dans ce mode vous ne pouvez savoir si le scénario est en cours.": "No utilizar si tiene un \"sleep\" en la escena. Atención, en este modo no puede saber si el script se está ejecutando.",
         "Enchainer les commandes sans attendre": "Encadenar los comandos sin esperar",
         "Enchaine les commandes sans verification que la commande précedente c'est bien éxecutée (Attention il faut que le plugin le supporte)": "Encadena las ordenes sin verificar que la orden anterior esté bien ejecutada (Atencion, el plugin lo debe soportar)",
         "Pas de log": "Ningún registro",
@@ -249,7 +249,7 @@
         "Ajouter élément": "Añadir elemento",
         "Si/Alors/Sinon": "Si/Entonces/Sino",
         "Action": "Acción",
-        "Boucle": "Loop",
+        "Boucle": "Bucle",
         "Dans": "En",
         "A": "A",
         "Code": "Código",
@@ -377,7 +377,7 @@
         "Pусский": "Pусский",
         "Bahasa Indonesia": "Bahasa Indonesia",
         "Italiano": "Italiano",
-        "Compatibilité matériel": "Compatibilidad material",
+        "Compatibilité matériel": "Compatibilidad hardware",
         "Directe release": "Liberación directa",
         "Changement": "Cambio",
         "Valider": "Validar",
@@ -398,7 +398,7 @@
         "Durée": "Duración"
     },
     "desktop/modal/expression.test.php": {
-        "Exécuter": "Realizar",
+        "Exécuter": "Ejecutar",
         "Résultat": "Resultado",
         "L\\'epression de test ne peut être vide": "La expresión de prueba no puede estar vacía",
         "Attention je pense qu\\'il y a un soucis car le résultat et le même que l\\'expression": "Advertencia: Quizá haya un problema pues el resultado es el mismo que la expresión",
@@ -417,7 +417,7 @@
         "Visible": "Visible",
         "Invisible": "Invisible",
         "Actif": "Activo",
-        "Aucun": "Ningún",
+        "Aucun": "Ninguno",
         "Voir les équipements": "Ver dispositivos",
         "Non actif": "No activo",
         "Voir les commandes": "Ver los comandos",
@@ -457,9 +457,9 @@
         "Equipement": "Dispositivo",
         "Commandes": "Comandos",
         "Scénario": "Escena",
-        "Calcul et arrondit": "Cálculo y rondas",
+        "Calcul et arrondit": "Calculo y redondeo",
         "Formule de calcul (#value# pour la valeur)": "Fórmula de cálculo (#value# para el valor)",
-        "Arrondi (chiffre après la virgule)": "Redondeado (cifra después de la coma)",
+        "Arrondi (chiffre après la virgule)": "Redondeo (cifra después de la coma)",
         "Type générique": "Tipo genérico",
         "Type actuel": "Tipo de corriente",
         "Forcer à": "Fuerza para",
@@ -552,7 +552,7 @@
         "Voir la log": "Ver el registro",
         "NOK": "NOK",
         "Installation en cours": "Instalación en curso",
-        "Log des dépendances": "Log de dependencias"
+        "Log des dépendances": "Registro de dependencias:"
     },
     "mobile/html/index.html": {
         "Accueil": "Inicio"
@@ -577,22 +577,22 @@
         "Durée de vie des sessions (heure)": "Duración de sesiones (horas)",
         "Fuseau horraire de votre Jeedom": "Zona horaria de Jeedom",
         "Date et heure": "Dia y hora",
-        "Permet d'ajouter un serveur de temps à Jeedom utilisé lorsque Jeedom force la synchronisation de l'heure": "Añada un servidor de hota para que Jeedom pueda forzar la sincronización de hora",
+        "Permet d'ajouter un serveur de temps à Jeedom utilisé lorsque Jeedom force la synchronisation de l'heure": "Permite agregar un servidor NTP a Jeedom para forzar la sincronización horaria. ",
         "Serveur de temps optionnel": "Servidor de tiempo opcional",
         "Indique à Jeedom de ne pas prendre en compte l'heure du système": "Indicar a Jeedom que no tenga en cuenta la hora de sistema",
         "Ignorer la vérification de l'heure": "Ignorar la verificación de tiempo",
         "Permet de passer Jeedom en mode exclave.": "Cambiar Jeedom a modo esclavo",
         "Mode": "Modo",
         "Maître": "Maître",
-        "Esclave": "Esclave",
+        "Esclave": "Esclavo",
         "Composants Jeedom": "Componentes de Jeedom",
         "Activer la gestion des droits avancés": "Habilitar la gestión de permisos avanzada",
-        "Activer la sécurité anti-piratage": "Activar la seguridad contra la piratería",
+        "Activer la sécurité anti-piratage": "Activar la seguridad contra hacker",
         "Base de données": "Base de datos",
-        "ATTENTION ces opérations sont risquées, vous pouvez perdre l'accès à votre système et à Jeedom. Suite à une modification de la base de données, l'équipe Jeedom se réserve le droit de refuser toute demande de support.": "ATENCIÓN dichas operaciones son arriesgadas, puede perder el acceso a su sistema y Jeedom. Siguiendo un cambio en la base de datos, el equipo Jeedom se reserva el derecho de rechazar cualquier solicitud de soporte.",
+        "ATTENTION ces opérations sont risquées, vous pouvez perdre l'accès à votre système et à Jeedom. Suite à une modification de la base de données, l'équipe Jeedom se réserve le droit de refuser toute demande de support.": "ATENCIÓN Estas operaciones son arriesgadas, puede perder acceso a su sistema y a Jeedom. A causa de una modificación de la base de datos, el equipo de Jeedom, se reserva el derecho de rechazar cualquier solicitud de soporte.",
         "Accès à l'interface d'administration": "Acceso a la interfaz de administración",
         "Se connecter": "Conectarse",
-        "Machine (hostname)": "Máquina (hostname)",
+        "Machine (hostname)": "Servidor (hostname)",
         "Utilisateur": "Usuario",
         "Mot de passe": "Contraseña",
         "Configuration réseaux": "Configuración de red",
@@ -890,7 +890,7 @@
     "desktop/php/history.php": {
         "Historique": "Historial",
         "Rechercher": "Buscar",
-        "Attention une trop grande plage de dates peut mettre très longtemps à être calculée ou même ne pas s'afficher": "Atención una banda de fechas demasiada grande  puede tardar mucho en ser calculada o hasta no mostrarse",
+        "Attention une trop grande plage de dates peut mettre très longtemps à être calculée ou même ne pas s'afficher": "Atención, un rango de fechas demasiado grande puede tardar mucho en calcularse o incluso no mostrarse",
         "Ok": "Ok",
         "Ligne": "Línea",
         "Areaspline": "Areaspline",
@@ -899,7 +899,7 @@
         "Escalier": "Escalera"
     },
     "desktop/js/history.js": {
-        "Veuillez indiquer la date (Y-m-d H:m:s) avant laquelle il faut supprimer l\\'historique de ": "Indique la fecha (A-M-D H: m: s) antes la cuál se debe borrar el historial de",
+        "Veuillez indiquer la date (Y-m-d H:m:s) avant laquelle il faut supprimer l\\'historique de ": "Indique la fecha (A-M-D H:m:s) desde la cuál borrar el historial",
         "Historique supprimé avec succès": "Historial eliminado correctamente"
     },
     "desktop/php/view.php": {
@@ -1003,15 +1003,15 @@
         "Disponible sur téléphone": "Disponible en el teléfono",
         "Image": "Imagen",
         "Envoyer": "Enviar",
-        "Afficher la flèche de retour lors de la mise en plein écran": "Mostrar la flecha de vuelta atrás cuando se pone en plena pantalla",
-        "Tailles": "Tallas",
-        "Responsive mode (Attention toute les valeurs de taille sont ignorées)": "Modo responsive (Atención todos los valores de tamaño se ignoran)",
+        "Afficher la flèche de retour lors de la mise en plein écran": "Mostrar la flecha de vuelta atrás, en modo pantalla completa",
+        "Tailles": "Tamaños",
+        "Responsive mode (Attention toute les valeurs de taille sont ignorées)": "Modo de respuesta (Atención, todos los valores de tamaño son omitidos)",
         "Taille (LxH)": "Tamaño (ancho x alto)",
         "Proportion tablette (ex : 0.7)": "Proporción de la tablet (por ejemplo 0,7)",
         "Proportion téléphone (ex 0.5)": "Proporción del móvil (por ejemplo, 0,5)"
     },
     "desktop/modal/plan.configure.php": {
-        "Taille du widget": "Talla del widget",
+        "Taille du widget": "Tamaño del widget",
         "Couleur de fond": "Color de fondo",
         "Transparent": "Transparente",
         "Défaut": "Por defecto",
@@ -1030,17 +1030,17 @@
     },
     "desktop/js/utils.js": {
         "Attention vous quittez une page ayant des données modifiées non sauvegardées. Voulez-vous continuer ?": "Advertencia estas dejando una página con los datos modificados no guardados. ¿Quieres continuar?",
-        "Bienvenue dans Jeedom": "Bienvenido en Jeedom",
+        "Bienvenue dans Jeedom": "Bienvenido a Jeedom",
         "Etes-vous sûr de vouloir arrêter le système ?": "¿Seguro que desea apagar el sistema?",
         "Etes-vous sûr de vouloir redémarrer le système ?": "¿Desea reiniciar el sistema?",
         "Evènement en temps réel": "Evento en tiempo real",
         "Message Jeedom": "Mensaje Jeedom",
         "Oui": "Si",
         "Non": "No",
-        "Choisissez votre icône": "Elige vuestro icono"
+        "Choisissez votre icône": "Seleccione un icono"
     },
     "/var/www/html/desktop/php/battery.php": {
-        "inconnue": "desconocida"
+        "inconnue": "Desconocido"
     },
     "desktop/php/battery.php": {
         "Santé": "Salud",
@@ -1060,7 +1060,7 @@
         "Général": "General",
         "Nom de l'objet": "Nombre del objeto",
         "Père": "Padre",
-        "Aucun": "Ningún",
+        "Aucun": "Ninguno",
         "Visible": "Visible",
         "Icône": "Icono",
         "Choisir": "Elegir",
@@ -1117,23 +1117,23 @@
     "desktop/js/interact.js": {
         "Liste des interactions": "Lista de Interacciones",
         "Sauvegarde effectuée avec succès": "Guardado correctamente",
-        "Suppression effectuée avec succès": "Borrado terminado con éxito",
+        "Suppression effectuée avec succès": "Borrado finalizado con éxito",
         "Tester les interactions": "Probar las interacciones ",
-        "Etes-vous sûr de vouloir regénérer toutes les interations (cela peut être très long) ?": "¿ Seguro desea volver a generar todas las interacciones (esto puede ser muy largo) ?",
+        "Etes-vous sûr de vouloir regénérer toutes les interations (cela peut être très long) ?": "¿ Está seguro que desea volver a generar todas las interacciones (esto puede llevar mucho tiempo) ?",
         "Toutes les interations ont été regénérées": "Todas las interacciones se han actualizado",
         "Etes-vous sûr de vouloir supprimer l\\'interaction": "¿Seguro que quieres eliminar la interacción ",
         "Veuillez d\\'abord sélectionner un objet": "Primero seleccione un objeto",
         "Action": "Acción"
     },
     "desktop/modal/interact.test.php": {
-        "Exécuter": "Realizar",
+        "Exécuter": "Ejecutar",
         "Résultat": "Resultado",
         "La demande ne peut être vide": "La solicitud no puede estar vacía"
     },
     "desktop/js/scenarioAssist.js": {
         "Sauvegarde effectuée avec succès": "Guardado correctamente",
         "Nom": "Nombre",
-        "Nom de votre scénario": "Nombre de su escena",
+        "Nom de votre scénario": "Nombre de la escena",
         "Type": "Tipo",
         "Simple": "Simple",
         "Avancée": "Avanzada",
