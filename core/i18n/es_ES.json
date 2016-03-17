@@ -332,7 +332,7 @@
         "Limite de la taille totale des sauvegardes à ": "Limite de tamaño total para las copias de seguridad",
         "Envoi de la sauvegarde dans le cloud...": "Subir la copia de seguridad a la nube...",
         "Nom du backup : ": "Nombre del backup",
-        "***************Fin de la sauvegarde de Jeedom***************\n": "\n***************Fin de la salvagardia de Jeedom***************"
+        "***************Fin de la sauvegarde de Jeedom***************\n": "***************Fin de la copia de seguridad de Jeedom***************"
     },
     "desktop/php/dashboard.php": {
         "Liste objets": "Lista de objetos",
@@ -1179,8 +1179,8 @@
         "Ouvert": "Abierto",
         "Fermé": "Cerrado",
         "Allumé": "Allumé",
-        "Eteint": "Eteint",
-        "Déclenché": "Déclenché",
+        "Eteint": "Apagar",
+        "Déclenché": "Desencadenada",
         "Au repos": "Au repos",
         "Log d'exécution du scénario": "Log de ejecución de la escena",
         "Export du scénario": "Exportar escena",
