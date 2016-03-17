@@ -42,15 +42,15 @@ Hier haben Sie folgende Möglichkeiten :
 
 == Le log "Event" et le niveau de log "Event"
 
-Le log "Event" est un peu particulier. Tout d'abord pour qu'il marche, il faut activer le niveau de log "Info" ou plus, ensuite celui-ci recense tous les évènements ou actions qui se passent sur la domotique. Pour y accéder, il faut cliquer sur la petite icône "compteur" en bas à droite dans Jeedom : 
+Das Protokoll 'Ereignis' ist ein wenig speziell. Zum einen für sie zu arbeiten, aktivieren Sie die Log-Level 'Info' oder mehr, dann listet es alle Ereignisse und Aktionen, die auf Home Automation passieren. Um darauf zuzugreifen, klicken Sie auf das kleine Symbol 'Zähler' unten rechts in Jeedom: 
 
 image::../images/log3.JPG[]
 
-Une fois que vous avez cliquez dessus, vous obtenez une fenêtre qui se met à jour toutes les secondes et vous affiche tous les évènements de votre domotique.
+Sobald sie darauf klicken, erhalten sie ein Fenster, das jede Sekunde aktualisiert wird und alle Ereignisse in Ihrer Home-Automation anzeigt.
 
 image::../images/log4.JPG[]
 
-En haut à droite vous avez un champs recherche (ne marche que si vous n'êtes pas en pause) et un bouton pour mettre en pause (utile pour faire un copier/coller par exemple).
+Oben rechts haben sie ein Suchfelder  (funktioniert nur, wenn sie nicht angehalten haben) und eine Schaltfläche für die Pause (nützlich zum Beispiel für Kopieren/Einfügen).
 
 [IMPORTANT]
-Pour que cela marche il faut absolument avoir activé le niveau de log "Info" ou plus (voir paragraphe précédent)
+Damit das geht, muss man unbedingt das Niveau von log "Info" aktiviert haben oder mehr (siehe vorhergehenden Absatz) 

@@ -1,80 +1,80 @@
 = Resumen de domótica
 
-Cette page permet d'avoir un resumer sur sa domotique et donne aussi a des fonciton d'organisation des équipements et commandes, a de la configuraiton avancée des équipements et commande ainsi qu'a des possibilité de configuration d'affichage. Elle se décompose en un onglet "Ma domotique" et un un onglet "Configuration de l'affichage".
+Esta página permite tener un resumen de la domótica de su casa y  también muestra la organización de dispositivos y ordenes, posibilita la configuración avanzada de los dispositivos y ordenes, así como la posibilidad de mostrar la configuración de pantalla. Se desglosas en dos pestañas "Mi domótica" y "Configuración de pantalla".
 
-Cette page est accessible par Outils -> Résumé domotique : 
+Esta página es accesible a través de herramientas -> Resumen domótico: 
 
 image::../images/display.png[]
 
-Le premiere onglet permet d'orgniser les differents équipement, les commandes, d'avoir accès a la configuration avancé ainsi qu'a de la configuration de masse. Voila celui-ci :
+La primera pestaña permite organizar los diferentes dispositivos, ordenes, acceso a la configuración avanzada, así como la configuración en masa. Aquí está:
 
 image::../images/display2.png[]
 
-On retrouve tout en haut un résumé du nombre d'objet existant, du nombre d'équipement et du nombre de commande. Sur la droite se trouve, un bouton pour masquer tous les équipements inactif et  un champs de recherche pour par exemple chercher un équipement,une commande ou tous les équipements d'un certain type (plugin, par exemple il suffit de taper rfxcom pour avoir tous les équipements rfxcom)
+Aquí se encuentra un resumen del número de objetos existentes, el número de dispositivos y el número de ordenes. A la derecha hay un botón para ocultar todos los dispositivos inactivos y un campo de búsqueda, por ejemplo buscar un dispositivo, orden o todos los dispositivos de un determinado tipo (plugin,por ejemplo escriba rfxcom para obtener todos los dispositivos rfxcom)
 
-En dessous on retrouve un cadre par objet, dans chaque cadre se trouve la liste des équipements (en bleu) contenu dans l'objet. Vous avez sur la ligne du nom de l'objets jusqu'a 3 boutons, dans l'ordre : 
+A continuación encontrará un marco por objeto, en cada marco, una lista de dispositivos (en azul) conteniendo los objetos. En la línea de los nombres de los objetos hasta 3 botones, en orden: 
 
-* le premier sert à ouvrir la page de configuration de l'objet dans un nouvel onglet
-* le deuxieme donne un résumé sur l'objet
-* le dernier permet de masquer la liste des équipements (en dessous en bleu)
-
-[TIP]
-La couleur de fond des cadre objet dépend de la couleur mise dans la configuration de l'objet
-
-A partir de la vous pouvez en cliquant/maintenant un équipement changer l'ordre dans l'objet ou meme l'affecter à un autre objet.
+* El primero se utiliza para abrir la configuración de la página de objeto en una nueva pestaña
+* el segundo ofrece un resumen sobre el objeto
+* el último le permite ocultar la lista dispositivoss (abajo en azul)
 
 [TIP]
-C'est a partir de cette ordre la qu'est calculé l'ordre d'affichage sur le dashboard
+El color de fondo del recuadro del objeto depende del color en la configuración del objeto
 
-Sur chaque équipement on retrouve : 
+Pueder hacer clic/mantenimiento en un dispositivo y cambar el orden del objeto o asignar a otro objeto
+
+[TIP]
+Es a partir de este orden como calcula el orden de visualización en el Dashboard
+
+En cada dispositivo encontramos : 
 
 image::../images/display3.png[]
 
-* une coche pour selectionner l'équipement (vous pouvez en selectionner plusieurs), si au moins un équipement est sélectionné vous avez des boutons d'action qui apparaissent pour supprimer, desactiver, activer, rendre visible ou invisible les équipements sélectionnés
+* una marca de verificación para seleccionar el dispositivo (puede seleccionar varios), si se selecciona al menos un dispositivo tienes botones de acción para eliminar, deshabilitar, habilitar, hacer visible o invisible el dispositivo seleccionado
 
 image::../images/display4.png[]
 
-* le nom de l'équipement
-* le type de l'équipement (identifiant du plugin auxquel il appartient)
-* une croix signifie que l'équipement est inatif (si elle n'y ai pas alors l'équipement est actif)
-* un oeil barré signifie que l'équipement est invisible (si il n'y ai pas alors l'équipement est visible)
-* lien externe : permet d'ouvrir dans un nouvelle onglet la page de configuration de l'équipement
-* configuration avancée (petit roue crantée) : permet d'ouvrir la fenetre de configuration avancée
+* El nombre del dispositivo
+* el tipo de dispositivo (ID del plugin al que pertenece)
+* una equis (X) significa que el equipo está inactivo (Si no, significa que el equipo está activo)
+* un ojo tachado significa que el equipo es invisible (Si no, significa que el equipo está activo)
+* enlace externo: permite abrir en una nueva pestaña la página de configuración del dispositivo
+* Configuración avanzado (rueda dentada pequeña): permite abrir la ventana de configuración avanzada
 
 [TIP]
-Un double clic sur l'équipement permet aussi d'ouvrir la fenetre de configuration avancée
+Doble clic en el dispositivo también permite para abrir la ventana de configuración avanzada
 
-* liste des commandes (la fleche) : permet de dépliquer la liste des commandes
+* Lista de ordenes (la flecha) : permite "DESPLEGAR" la lista de ordenes
 
-Si vous dépliez la liste des commandes vous obtenez : 
+Si se despliega la lista de ordenes se obtiene: 
 
 image::../images/display5.png[]
 
-Chaque bloc jaune correspond à une commande de votre équipement (un nouveau sur la petite fleche de l'équipement permet de les masquer). Si vous faite un double clique sur la commande ou que vous cliquez sur la petite roue cranté cela fera apparaitre la fenetre de configuration
+Cada bloque amarillo corresponde a una orden de su dispositivo (uno nuevo en la pequeña flecha del dispositivo permite ocultarlos). Si hace doble clic en la orden o clic en la rueda dentada pequeña, aparecerá la ventana de configuración
 
-== Configuration avancée d'un équipement
+==  Configuración avanzada  del dispositivo
 
-La fenetre de configuration avancée d'un équipement est composée de 2 onglets : Informations et Affichages avancé. 
+La ventana de configuración avanzada del dispositivo consiste en 2 pestañas: información y visualizaciones avanzadas. 
 
-En haut vous retrouvez aussi un bouton sauvegardé et un bouton de suppression d'équipement
+En la parte superior también encontrará un botón guardar y un botón borrar dispositivo
 
 [TIP]
-Il est possible d'acceder (si le plugin le supporte) directement à cette fenetre a partir de la page de configuration de l'équipement en cliquant sur les 3 petite roue crantées (souvent placé tout en haut à coté du titre "General")
+Es posible acceder directamente (si es compatible con el plugin)  a esta ventana de la página de configuración dispositivo, haciendo clic en la rueda dentada pequeña 3 ( se suele encontrar en la parte superior, al lado del título "General")
 
-=== Informations
+=== Información
 
 image::../images/display9.png[]
 
-L'onglet information contient les informations général de l'équipement : 
+La ficha de información contiene la información general del dispositivo: 
 
-* *ID* : identifiant unique dans la base de données
-* *Nom* : nom de l'équipement
-* *ID logique* : identifiant logique de l'équipement (peut etre vide)
-* *ID de l'objet* : identifiant unique de l'objet père (peut etre vide)
-* *Date de création* : date de création de l'équipement
-* *Activer* : permet d'activer ou non l'équipement (n'oubliez pas de sauvegarder)
-* *Visible* : permet de rendre visible ou non l'équipement (n'oubliez pas de sauvegarder)
-* *Type* : identifiant du plugin auquel il apparatient
+* * ID * : Identificador único en la base de datos
+* *Nombre* : nombre del dispositivo
+* *ID Lógica* : identificador lógico del dispositivo (puede estar vacía)
+* *ID del objeto* : identificador único del objeto padre (puede estar vacio)
+* * Fecha de creación*: fecha de creación del dispositivo
+* *Activar*: Permite activar o desactivar el dispositivo (recuerde guardar)
+** Visible *: permite hacer visible o invisible el dispositivo (recuerde guardar)
+** Tipo *: Identificador del plugin al que pertenece
 * *Tentative échoué* : nombre de tentative de communication consecutive avec l'équipement qui ont échoué
 * *Derniere mise à jour* : date de derniere communication avec l'équipement
 
@@ -110,13 +110,13 @@ La fenetre de configuration avancée d'une commande est composée de 3 onglets :
 
 Elle a aussi 2 boutons un pour sauvegarder et un pour appliquer les memes parametres de configuration à une autre commande
 
-=== Informations
+=== Información
 
 image::../images/display12.png[]
 
 L'onglet information contient les informations général sur la commande :
 
-* *ID* : identifiant unique dans la base de données
+* * ID * : Identificador único en la base de datos
 * *Logical ID* : identifiant logique de la commande (peut etre vide)
 * *Nom* : nom de la commande
 * *Type* : type de la commande (action ou info)

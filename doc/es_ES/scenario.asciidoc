@@ -62,29 +62,29 @@ Abajo a la izquierda encontrará la configuración de la escena:
 
 * *Escena*: para indicar si la escena se programará (en un momento y fecha y precisos) o si será provocada por un evento (como por ejemplo la detección de un movimiento)
 * *Ejecución*: en modo programado permite seleccionar si se va a ejecutar una sóla vez o de forma repetida
-* *En date du* : si il n'est executé qu'une fois alors il faut indiquer la date et l'heure
-* *Fréquence* : en mode répété vous pouvez choisir la fréquence de répétition
+* *A partir de*: Si no se ejecuta una vez, debe especificar la fecha y la hora
+* *Frecuencia*: En modo repetición puede elegir la frecuencia de repetición
 
 image::../images/scenario10.JPG[]
 
-* *Par* : en mode provoqué vous devez choisir la commande déclenchant le scénario, en cliquant sur le petit bouton à gauche
+* *Para*: En modo provocado debe elegir el comando de activación de la escena, haciendo clic en el pequeño botón a la izquierda
 
 image::../images/scenario11.JPG[]
 
-* *Condition optionnelle* : permet d'activer ou non un test avant l'éxecution du scénario.
+* *Condición opcional*: Permite habilitar o no una prueba antes de la ejecución real de la secuencia de comandos.
 
 image::../images/scenario12.JPG[]
 
-* *Si* : permet de choisir la commande sur laquel s'applique la condition, en cliquant sur le petit bouton à gauche
-* *Est* : permet de choisir le statut que doit avoir la commande precedente pour que les actions soit éxécutées (en fonction de la commande les options peuvent changer)
+* *Si*: Permite elegir el orden en que se aplica la condición, haciendo clic en el pequeño botón a la izquierda
+* *Estado*: Seleccione el estado que debe tener el comando anterior para que se ejecute la acción (en función del comando las opciones pueden cambiar)
 
-Enfin sur la droite vous avez les actions, ici très simple il suffit de cliquer sur ajouter une action
+Finalmente, a la derecha encontrará las acciones, simplemente basta con hacer clic en agregar una acción
 
-=== Exemple allumer sur presence
+=== Ejemplo de luz activada por presencia
 
 image::../images/scenario13.JPG[]
 
-Voila un scénario très simple qui allume la lumiere en cas de présence
+Éste es un script muy sencillo que enciende la luz al detectar una presencia
 
 [TIP]
 Ce scénario sera declenché aussi bien lors de la detection d'une présence que lors du relachement (fin de présence), il est donc necessaire de tester la valeur de la presence (ici déclenchée)
