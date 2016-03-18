@@ -1,0 +1,175 @@
+= Resumen de domótica
+
+Cette page permet d'avoir un résumé sur sa domotique et donne aussi accès à des fonctions d'organisation des équipements et des commandes, à de la configuration avancée des équipements et des commandes ainsi qu'à des possibilités de configuration d'affichage. Elle se décompose en un onglet "Ma domotique" et un un onglet "Configuration de l'affichage".
+
+Esta página es accesible a través de herramientas -> Resumen domótico: 
+
+image::../images/display.png[]
+
+Le première onglet permet d'organiser les différents équipements, les commandes, d'avoir accès à la configuration avancée ainsi qu'à de la configuration de masse. Voila celui-ci :
+
+image::../images/display2.png[]
+
+On retrouve tout en haut un résumé du nombre d'objets existants, du nombre d'équipements et du nombre de commandes. Sur la droite se trouve un bouton pour masquer tous les équipements inactifs et un champ de recherche pour par exemple chercher un équipement, une commande ou tous les équipements d'un certain type (plugin, par exemple il suffit de taper rfxcom pour avoir tous les équipements rfxcom)
+
+En dessous on retrouve un cadre par objet, dans chaque cadre se trouve la liste des équipements (en bleu) contenus dans l'objet. Vous avez sur la ligne du nom de l'objet jusqu'à 3 boutons, dans l'ordre : 
+
+* El primero se utiliza para abrir la configuración de la página de objeto en una nueva pestaña
+* le deuxième donne un résumé sur l'objet
+* el último le permite ocultar la lista dispositivoss (abajo en azul)
+
+[TIP]
+La couleur de fond des cadres objets dépend de la couleur mise dans la configuration de l'objet
+
+A partir de là vous pouvez en cliquant/maintenant un équipement changer l'ordre dans l'objet ou même l'affecter à un autre objet.
+
+[TIP]
+C'est à partir de cet ordre là qu'est calculé l'ordre d'affichage sur le dashboard
+
+En cada dispositivo encontramos : 
+
+image::../images/display3.png[]
+
+* une coche pour sélectionner l'équipement (vous pouvez en sélectionner plusieurs), si au moins un équipement est sélectionné vous avez des boutons d'action qui apparaissent pour supprimer, désactiver, activer, rendre visible ou invisible les équipements sélectionnés
+
+image::../images/display4.png[]
+
+* El nombre del dispositivo
+* el tipo de dispositivo (ID del plugin al que pertenece)
+* une croix signifie que l'équipement est inactif (si elle n'y est pas alors l'équipement est actif)
+* un oeil barré signifie que l'équipement est invisible (si il n'y est pas alors l'équipement est visible)
+* enlace externo: permite abrir en una nueva pestaña la página de configuración del dispositivo
+* configuration avancée (petit roue crantée) : permet d'ouvrir la fenêtre de configuration avancée
+
+[TIP]
+Un double clic sur l'équipement permet aussi d'ouvrir la fenêtre de configuration avancée
+
+* liste des commandes (la flèche) : permet de déplier la liste des commandes
+
+Si se despliega la lista de ordenes se obtiene: 
+
+image::../images/display5.png[]
+
+Chaque bloc jaune correspond à une commande de votre équipement (un nouveau sur la petite flèche de l'équipement permet de les masquer). Si vous faites un double clic sur la commande ou que vous cliquez sur la petite roue crantée cela fera apparaitre la fenêtre de configuration
+
+==  Configuración avanzada  del dispositivo
+
+La fenêtre de configuration avancée d'un équipement est composée de 2 onglets : Informations et Affichages avancés. 
+
+En haut vous retrouvez aussi un bouton sauvegarder et un bouton de suppression d'équipement
+
+[TIP]
+Il est possible d'accéder (si le plugin le supporte) directement à cette fenêtre a partir de la page de configuration de l'équipement en cliquant sur les 3 petites roues crantées (souvent placées tout en haut à coté du titre "Général")
+
+=== Información
+
+image::../images/display9.png[]
+
+L'onglet information contient les informations générales de l'équipement : 
+
+* * ID * : Identificador único en la base de datos
+* *Nombre* : nombre del dispositivo
+* *ID logique* : identifiant logique de l'équipement (peut être vide)
+* *ID de l'objet* : identifiant unique de l'objet père (peut être vide)
+* * Fecha de creación*: fecha de creación del dispositivo
+* *Activar*: Permite activar o desactivar el dispositivo (recuerde guardar)
+** Visible *: permite hacer visible o invisible el dispositivo (recuerde guardar)
+* *Type* : identifiant du plugin auquel il appartient
+* *Tentative échoué* : nombre de tentatives de communications consécutives avec l'équipement qui ont échoué
+* *Dernière mise à jour* : date de dernière communication avec l'équipement
+
+=== Pantalla avanzada
+
+image::../images/display10.png[]
+
+Dans cette partie vous allez pouvoir configurer certains comportements d'affichage de la tuile sur le dashboard, les vues, le design et en mobile.
+
+Puedes: 
+
+** Visible *: permite ocultar o mostrar el dispositivo en el escritorio o el móvil
+* *Mostrar nombre* : permite cambiar el nombre del dispositivo a mostrar según el tipo de vista (Dashboard, diseño, vistas o móvil) 
+* *Mostrar el nombre del objeto *: solamente para modo vista, esto permite mostrar el nombre del objeto al lado del nombre del dispositivo
+* *Afficher le niveau de batterie* : uniquement pour le dashboard, les designs et le vues cette option permet de masquer le niveau de batterie de l'équipement (si il est sur batterie bien sûr)
+
+En dessous on retrouve des paramètres optionnels d'affichage que l'on peut passer à l'équipement. Ces paramètres sont composés d'un nom et d'une valeur. Pour les équipements, seule la valeur "style" est pour le moment utilisée, elle permet d'insérer du code CSS sur l'équipement en question. Exemple ici pour arrondir les angles : 
+
+image::../images/display11.png[]
+
+[TIP]
+No olvide guardar los cambios después de hacer modificaciones
+
+=== Batería
+
+image::../images/display16.png[]
+
+Cet onglet permet d'avoir les informations sur la batterie de l'équipement : type de pile, dernière remontée de l'information, niveau restant (si bien sur votre équipement fonctionne sur pile). Vous pourrez aussi à partir de celui-ci configurer les seuils spécifiques pour cet équipement.
+
+== Configuración avanzada de una orden
+
+La fenêtre de configuration avancée d'une commande est composée de 3 onglets : Informations, Configuration avancée et Affichage avancé. 
+
+Elle a aussi 2 boutons, un pour sauvegarder et un pour appliquer les même paramètres de configuration à une autre commande
+
+=== Información
+
+image::../images/display12.png[]
+
+La pestaña de información contiene información general acerca de la orden:
+
+* * ID * : Identificador único en la base de datos
+* *Logical ID* : identifiant logique de la commande (peut être vide)
+* * Nombre*: nombre de la orden
+* * Tipo* : tipo de orden (acción o información)
+* *Subtipo * : según el tipo de orden (binario, digital...)
+* *URL directe* : fournis une URL (clic droit copier l'addresse du lien) pour en fonction du type de la commande déclencher l'action ou récupérer sa valeur (si c'est une commande de type info)
+* *Unidad* : la unidad de de medición de la orden º, kw.. etc
+* * Orden de actualización*: da el identificador de otro comando que si este cambia, fuerza la actualización de la orden mostrada
+** Cache *: duración del valor de la orden en memoria (una vez que este período expire Jeedom solicita su valor). Atención si usted tiene un evento entonces este parámetro se omite porque la duración es ilimitada. Si usted no tiene ningún valor y no tiene eventos, entonces el tiempo de expiración se establece por la configuración de Jeedom (por defecto 300 seg)
+* *Evento* : indica a Jeedom la aplicación del valor demandado por la orden (si el dispositvio o el pluging lo permiten)
+* *Visible* : establece si el control es visible o no
+
+A continuación encontrará la lista de los diferentes dispositivos, controles, escenas o interacciones que utilizan esta orden. Haga clic arriba para ir directamente a su respectiva configuración
+
+=== Configuración avanzada
+
+image::../images/display13.png[]
+
+Pas mal d'option ici (elles peuvent varier en fonction du type et du sous-type de la commande). 
+
+Para una orden de tipo información:
+
+* *Cálculo y redondeo*
+** Fórmula de calculo (\#value# valor)* : aquí, puedes hacer una operación sobre el valor de la orden antes de ser procesada por Jeedom, ejemplo: \#valeur# - 0.2 a restar 0,2 (offset sobre un sensor de temperatura)
+** Redondeo (dígitos después de la coma) *: permite redondear el valor dela orden, ejemplo: poner 2 decimales para transformar 16.643345 en 16.64
+* *Tipo genérico* : esto le permite configurar el tipo genérico de orden (jeedom intenta encontrar por usted automáticamente). Esta información es utilizada por la aplicación móvil.
+** Acción según valor* : esto le permite hacer una especie de mini escena, por ejemplo, puede decir que si este valor es mayor de 50 por 3 minutos realice tal acción. Esto permitiría por ejemplo apagar una luz X minutos después de que se produzca la acción.
+* *Historial* : vaya a link:https://jeedom.com/doc/documentation/core/sp_SP/doc-core-history.html#_configuration_spécifique_par_commande[aquí]
+* *Otros*
+** *No repetir si no cambia el valor* : Si la orden obtiene 2 veces el mismo valor indica a Jeedom que no lo tenga en cuenta(evita que se repita una scena si el valor no cambia)
+** Push URL *: permite agregar una dirección URL para llamar a la orden Actualizar. Usted puede utilizar las siguientes etiquetas: \#value# por el valor de la orden, \#cmd_name# para el nombre de la orden, \#cmd_id# para el id de la orden, \#humanname# para el nombre completo de la orden ([ej:  \#[Baño] [humedad] [cantidad] #)
+
+Si vous êtes sur une commande type action vous avez : 
+
+image::../images/display15.png[]
+
+* * Confirmar la acción *: durante una acción Jeedom requerira una confirmación vía interfaz de este comando
+* *Código de acceso* : durante una acción Jeedom requerirá autentificación vía interfaz del comando.
+
+=== Pantalla avanzada
+
+image::../images/display14.png[]
+
+En la parte central podrás configurar ciertas opciones de visualización del widget en el Dashborad, las vistas, el diseño y el móvil.
+
+Puedes: 
+
+* *Widget* : permite elegir el widget en el escritorio o el móvil (Nota, tambien se puede hacer dese el propio plugin widget)
+* * Visible*: oculta o no la orden en el escritorio o móvil
+* *Mostrar nombre* : permite cambiar el nombre del dispositivo a mostrar según el tipo de vista (Dashboard, diseño, vistas o móvil)
+* *Mostrar estadísticas* :  permite mostrar las estadísticas según el contexto (Dashboard, diseño, vistas o móvil). PRECAUCIÓN debe activar las estadísticas en la configuración de Jeedom, configurar esta opción tienen un impacto en el rendimiento
+* *Retour à la ligne forcé avant le widget* : permet d'ajouter un retour a la ligne avant ou après le widget (pour forcer par exemple un affichage en colonne des differentes commande l'équipement au lieu de ligne par defaut)
+
+En dessous on retrouve des paramètre optionnel d'affichage que l'on peut passer au widget. Ces paramètres dependent du widget en question, il faut donc regarder sa fiche sur le market pour les connaitres.
+
+[TIP]
+No olvide guardar los cambios después de hacer modificaciones
