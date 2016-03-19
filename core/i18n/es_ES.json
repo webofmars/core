@@ -8,11 +8,11 @@
     },
     "core/class/cmd.class.php": {
         "Evènement sur la commande ": "Evento del comando",
-        " valeur : ": "Valor :",
+        " valeur : ": "Valor:",
         "Exécution de la commande ": "Ejecución del comando",
         " avec les paramètres ": "con los parámetros",
         "Aucun": "Ninguno",
-        "Erreur execution de la commande ": "Error al ejecutar la orden",
+        "Erreur execution de la commande ": "Error al ejecutar el comando",
         "Titre": "Título",
         "Message": "Mensaje",
         "Valeur": "Valor"
@@ -21,12 +21,12 @@
         "Scénario exécuté automatiquement sur événement venant de : ": "Escena ejecutada automáticamente sobre evento proveniente de:",
         "Scénario exécuté automatiquement sur programmation": "Escena ejecutada automáticamente por programación",
         "Exécution du scénario ": "Ejecución de escena",
-        " déclenché par : ": "desencadenado por:",
+        " déclenché par : ": "originado por:",
         "Début d'exécution du scénario : ": "Inicio de la ejecución de escena:",
         "Fin correcte du scénario": "Escena finalizada correctamente",
         "Aucun": "Ningún",
         "Scénario exécuté sur événement : #": "Escena ejecutada sobre evento: #",
-        "Une commande du scénario : ": "Una orden de la escena:",
+        "Une commande du scénario : ": "Un comando de la escena:",
         " est introuvable": "no se encontró"
     },
     "desktop/modal/plugin.deamonLog.php": {
@@ -95,12 +95,12 @@
         "Faux": "Falso",
         "Vrai": "Real",
         "Exécution d'un bloc élément : ": "Ejecución de orden",
-        "Exécution de la commande ": "Ejecución de la orden",
+        "Exécution de la commande ": "Ejecución del comando",
         " avec comme option(s) : \n": "con las opciones:",
         "Pause de ": "Pausa",
         " seconde(s)": "segundo(s)",
         "Activation du scénario : ": "Activación de escena:",
-        "[Erreur] Aucune commande trouvée pour ": "[Error] Orden no encontrada",
+        "[Erreur] Aucune commande trouvée pour ": "[Error] Comando no encontrado",
         "Désactivation du scénario : ": "Desactivación de escena",
         "Lancement du scénario : ": "Ejecución de escena:",
         "Lancement provoqué": "Ejecución forzada",
@@ -285,12 +285,12 @@
     "desktop/modal/cmd.human.insert.php": {
         "Objet": "Objeto",
         "Equipement": "Dispositivo",
-        "Commande": "Orden",
+        "Commande": "Comando",
         "Aucun": "Ningún"
     },
     "core/class/message.class.php": {
         "Message de ": "Mensaje de",
-        "Impossible de trouver la commande correspondant à :": "No se pudo encontrar la orden  correspondiente a :"
+        "Impossible de trouver la commande correspondant à :": "No se pudo encontrar el comando correspondiente a:"
     },
     "core/php/jeeScenario.php": {
         "Impossible de lancer le scénario car déjà en cours : ": "No se puede iniciar la escena pues ya esta en marcha:"
@@ -412,7 +412,7 @@
         "Inactif": "Inactivo",
         "Nombre d'objet :": "Nombre del Objeto",
         "Nombre d'équipement :": "Nombre de dispositivo",
-        "Nombre de commande :": "Número de ordenes :",
+        "Nombre de commande :": "Número de comandos:",
         "Supprimer": "Borrar",
         "Visible": "Visible",
         "Invisible": "Invisible",
@@ -836,16 +836,16 @@
         "Valider": "Validar"
     },
     "core/js/cmd.class.js": {
-        "Résultat de la commande : ": "Resultado de la orden :",
+        "Résultat de la commande : ": "Resultado del comando:",
         "Action exécutée avec succès": "Acción ejecutada con éxito",
         "[Jeedom] Message de test": "[Jeedom] Mensaje de prueba",
-        "Ceci est un test de message pour la commande": "Este es un mensaje de prueba para la orden",
+        "Ceci est un test de message pour la commande": "Este es un mensaje de prueba para el comando",
         "Info": "Información",
         "Action": "Acción",
-        "Sélectionner la commande": "Seleccione la orden"
+        "Sélectionner la commande": "Seleccione el comando"
     },
     "core/js/history.class.js": {
-        "Il n\\'existe encore aucun historique pour cette commande :": "No existe histórico para esta orden:",
+        "Il n\\'existe encore aucun historique pour cette commande :": "No existe histórico para este comando:",
         "du": "del",
         "au": "al",
         "à partir de": "Desde",
