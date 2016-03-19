@@ -1316,7 +1316,7 @@
         "Ajouter un Jeedom": "Añadir un Jeedom",
         "Rechercher": "Buscar",
         "Général": "General",
-        "Log et messages": "Logs y mensajes :",
+        "Log et messages": "Logs y mensajes:",
         "Mise à jour": "Actualización",
         "Backup": "Backup",
         "Administration": "Administración",
@@ -1603,7 +1603,7 @@
         "[END UPDATE SUCCESS]\n": "[END UPDATE SUCCESS]"
     },
     "core/class/market.class.php": {
-        "Début de la mise à jour de : ": "Comience la actualización :",
+        "Début de la mise à jour de : ": "Comience la actualización:",
         "Téléchargement de ": "Descarga de",
         "OK\n": "OK",
         "Installation de du plugin,widget,scénario...": "Instalación de plugin, widget, escena...",
