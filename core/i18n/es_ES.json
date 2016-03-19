@@ -105,7 +105,7 @@
         "Lancement du scénario : ": "Ejecución de escena:",
         "Lancement provoqué": "Ejecución forzada",
         "Action sur scénario impossible. Scénario introuvable - Vérifiez l'id : ": "Acción para escena imposible. No se ha encontrado la escena - Verifique la ID:",
-        "[Wait] Condition valide : ": "[Wait] Condición válida :"
+        "[Wait] Condition valide : ": "[Wait] Condición válida:"
     },
     "core/class/eqLogic.class.php": {
         "Aucun": "Ningún"
@@ -325,7 +325,7 @@
         "OK\n": "OK",
         "Sauvegarde des fichiers...": "Copia de seguridad de archivos...",
         "Suppression du fichier d'identification de la base de données...": "Eliminación  del archivo de identificación de la base de datos ...",
-        "Vérification de la base de données : \n": "Verificación de la base de datos :",
+        "Vérification de la base de données : \n": "Verificación de la base de datos:",
         "Sauvegarde de la base de données...": "Copia de seguridad de la base de datos...",
         "Création de l'archive...": "Crear el archivo ...",
         "Nettoyage des anciennes sauvegardes...": "Limpieza de copias de seguridad antiguas...",
@@ -850,9 +850,9 @@
         "au": "al",
         "à partir de": "Desde",
         "jusqu\\'au": "Hasta",
-        "Edition de la série :": "Edición de la serie :",
+        "Edition de la série :": "Edición de la serie:",
         "et du point de": "y desde el punto de",
-        "valeur :": "Valor :",
+        "valeur :": "Valor:",
         "Ne rien mettre pour supprimer la valeur": "No ponga nada para quitar el valor",
         "La valeur a été éditée avec succès": "El valor ha sido editado correctamente"
     },
@@ -871,7 +871,7 @@
     },
     "core/class/jeedom.class.php": {
         "Connexion par API de l'utilisateur : ": "API de conexión de usuario",
-        "De nouvelles mises à jour sont disponibles : ": "Hay nuevas actualizaciones que están disponibles :"
+        "De nouvelles mises à jour sont disponibles : ": "Hay nuevas actualizaciones que están disponibles:"
     },
     "core/js/eqLogic.class.js": {
         "Sélectionner un équipement": "Seleccione un dispositivo"
@@ -1017,7 +1017,7 @@
         "Défaut": "Por defecto",
         "Couleur des icônes et textes": "Color de los iconos y textos",
         "Arrondir les angles (ne pas oublié de mettre %, ex 50%)": "Redondear las esquinas (no se olvide de poner%, es decir 50%)",
-        "Bordure (attention syntax css, ex : solid 1px black)": "Borde (atención sintaxis css, por ejemplo : solid 1px black)",
+        "Bordure (attention syntax css, ex : solid 1px black)": "Borde (atención a la sintaxis CSS, por ejemplo: solid 1px black)",
         "Profondeur": "Profundidad",
         "Afficher le nom de l'équipement": "Mostrar el nombre del dispositivo",
         "Commande": "Orden",
@@ -1274,7 +1274,7 @@
         "L\\'opération a échoué": "La operación falló"
     },
     "desktop/php/update.php": {
-        "Dernière vérification : ": "Ultima verificación :",
+        "Dernière vérification : ": "Ultima verificación:",
         "Vérifier les objets et mises à jour": "Compruebe los elementos y actualizaciones",
         "Changelog": "Changelog",
         "Mettre à jour": "Actualizar",
@@ -1431,7 +1431,7 @@
         "L\\'opération a échoué": "La operación falló"
     },
     "desktop/php/cron.php": {
-        "Processus cron Jeedom :": "Proceso cron Jeedom :",
+        "Processus cron Jeedom :": "Proceso cron Jeedom:",
         "Nombre de processus Jeedom cron maître (doit toujours être inférieur à 2)": "Nombre de procesos Jeedom cron maestro (siempre debe ser inferior a 2)",
         "Nombre total de processus Jeedom en cours": "Número total de procesos Jeedom en curso",
         "Nombre total de processus en cours sur la machine": "Número total de procesos en curso en la máquina",
