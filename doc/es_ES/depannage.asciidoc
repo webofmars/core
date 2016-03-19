@@ -1,7 +1,7 @@
 = Solución de problemas
 
 Obtengo una página en blanco::
-Il faut se connecter en SSH à jeedom et lancer un script d'auto-diagnostic : 
+Debe conectarse a  jeedom por SSH y lanzar un script de autodiagnóstico: 
 
 [source,bash]
 sudo chmod +x /usr/share/nginx/www/jeedom/health.sh;sudo /usr/share/nginx/www/jeedom/health.sh
@@ -10,14 +10,14 @@ Este es el resultado si todo es correcto:
 
 image::../images/depannage.png[]
 
-S'il y a un soucis, le script essaye de corriger, s'il n'y arrive pas il vous l'indiquera.
+Si hay un problema en el script lo intentará corregir, si no se lo indicará.
 
 También puede ver el registro de usr/share/nginx/www/jeedom/log/nginx.error, muy a menudo esto le indica los problemas
 
 ''''
 
-J'ai un problème d'identifiant BDD::
-Il faut réinitialiser ceux-ci
+Tengo un problema de identificación de la BDD:
+Necesidad de reajustarlos
 [source,bash]
 bdd_password=$(cat /dev/urandom | tr -cd 'a-f0-9' | head -c 15)
 echo "DROP USER 'jeedom'@'localhost'" | mysql -uroot -p
@@ -31,7 +31,7 @@ sudo chown www-data:www-data core/config/common.config.php
 ''''
 
 Tengo {...} en todas partes.
-La cause la plus fréquente est l'utilisation d'un plugin en version beta, et pas Jeedom, ou l'inverse
+La causa más frecuente es el uso de un plugin en versión beta y no Jeedom, o viceversa
 
 ''''
 
@@ -41,13 +41,13 @@ Sin embargo, esto ocurre amenudo debido al uso de un plugin en versión beta, mi
 ''''
 
 Ya no tengo acceso a Jeedom ni por  ssh:.
-Cette erreur n'est pas dû à Jeedom mais à un problème avec le système. 
-Si celui ci persiste suite à une réinstallation il est conseillé de voir avec le SAV pour un soucis hardware
+Este error es debido a un problema con el sistema pero no de Jeedom. 
+Si persiste después de la reinstalación es recomendable comprobar con el SAT si se trata de un problema de hardware
 
 ''''
 
-Mon scénario ne s'arrête plus/pas::
-Il est conseillé de regarder les commandes exécutées par le scénario, 
+Mi escena no funciona::
+Se recomienda ver los comandos ejecutadas por la escena, 
 a menudo esto es una orden que no termina (Bucle loop)
 
 ''''
@@ -58,21 +58,21 @@ Si la escena no tiene pausas es aconsejable chequear "ejecutar tan pronto como s
 ''''
 
 El testigo nodeJS es de color rojo o gris::
-En ssh faites "sudo service jeedom restart" pour forcer un redémarrage de celui-ci. Si ca ne marche pas faites : 
+SSH indica "sudo service jeedom restart" se reinicia a la fuerza. Si el trabajo no es realizado: 
 
 [source,bash]
 sudo su -
 rm -rf /usr/share/nginx/www/jeedom/core/nodeJS
 reboot
 
-Puis mettre à jour jeedom, le redémarrer à nouveau et ca devrait être bon
+Después de  actualizar jeedom, reinicie otra vez y ya debería funcionar
 
 ''''
 
 No tengo ningún error en el registro nginx.error a pesar de los errores 500::
 ssh :
 Editar el archivo /etc/php5/fpm/pool.d/www.conf y descomentar la línea "; catch_worket_process = yes" (borra el ;)) 
-et redémarrez php "sudo service php5-fpm restart"
+Reiniciar el php "sudo service php5-fpm restart"
 
 ''''
 
@@ -94,14 +94,14 @@ Compruebe que ha puesto el /jeedom correctamente  Si lo utilizas debe ir justo d
 ''''
 
 Tengo el siguiente error : SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'::
-Cela est du à MySQL qui s'est arrêté, ce n'est pas normal, les cas courants sont : 
-* soucis de place sur le système de fichier (peut être vérifié en faisant la commande "df -h", en ssh)
-* problème de corruption de fichier, arrive souvent suite à un arrêt non propre de jeedom (coupure de courant)
+Esto es que el MySQL se detiene , no es normal, las posibles causas son: 
+* problemas de espacio en el sistema de archivos (se puede verificar utilizando el comando "df - h", SSH)
+* problema de corrupción de archivo, a menudo ocurre después de un cierre no limpio de jeedom (apagón)
 
 Por desgracia no hay solución en el segundo caso, 
 Lo mejor sería recuperar una copia de seguridad (disponibles en /usr/share/nginx/www/jeedom/backup por defecto), 
 reinstale jeedom y restaurare desde la copia de seguridad.
-Vous pouvez aussi en ssh regarder pourquoi mysql ne veut pas démarrer : 
+También puedes comprobar desde SSH porque no se ejecuta mysql: 
 [source,bash]
 sudo su -
 service mysql stop
@@ -111,6 +111,6 @@ O consultar el registro: /var/log/mysql/error.log
 
 ''''
 
-Les boutons arrêter/redémarrer ne fonctionnent pas::
+los botones de parada/reinicio no funcionan:.
 En una instalación  DIY es normal hacer uso del comando visudo en SSH  
 Debe añadir: www-data ALL=(ALL) NOPASSWD: ALL.

@@ -30,7 +30,7 @@ sudo chown www-data:www-data core/config/common.config.php
 
 ''''
 
-J'ai des {{...}} partout::
+I have some {{...}} everywhere::
 La cause la plus fréquente est l'utilisation d'un plugin en version beta, et pas Jeedom, ou l'inverse
 
 ''''
@@ -70,7 +70,7 @@ Puis mettre à jour jeedom, le redémarrer à nouveau et ca devrait être bon
 ''''
 
 Je n'ai aucune erreur dans le log nginx.error malgrès des erreurs 500::
-En ssh :
+In ssh :
 Editez le fichier /etc/php5/fpm/pool.d/www.conf et decommanter la ligne ";catch_worket_process=yes" (supression du ;) 
 et redémarrez php "sudo service php5-fpm restart"
 
@@ -93,7 +93,7 @@ Vérifiez que vous avez bien mis les /jeedom si vous utilisez ceux-ci juste apr�
 
 ''''
 
-J'ai l'erreur suivante : SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'::
+I made the following mistake : SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock'::
 Cela est du à MySQL qui s'est arrêté, ce n'est pas normal, les cas courants sont : 
 * soucis de place sur le système de fichier (peut être vérifié en faisant la commande "df -h", en ssh)
 * problème de corruption de fichier, arrive souvent suite à un arrêt non propre de jeedom (coupure de courant)
@@ -111,6 +111,6 @@ Ou consulter le log : /var/log/mysql/error.log
 
 ''''
 
-Les boutons arrêter/redémarrer ne fonctionnent pas::
+The buttons start/stop are not working::
 Sur une installation DIY c'est normal, il faut faire en ssh la commande visudo et à la fin du fichier 
-vous devez ajouter : www-data ALL=(ALL) NOPASSWD: ALL.
+You must add : www-data ALL=(ALL) NOPASSWD: ALL.

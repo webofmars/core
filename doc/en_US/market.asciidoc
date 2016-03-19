@@ -8,20 +8,20 @@ image::../images/market.png[]
 
 Celle-ci se décompose en plusieurs parties : 
 
-== Mon profil
+== My profile
 
 image::../images/market1.png[]
 
-C'est ici que vous allez pouvoir régler différents paramètres de votre profil : 
+Here you can fix your settings of your profile 
 
-* *Profil*
-** *Login* : Votre login sur le market, il ne peut être changé
-** *Nom* : Votre nom (cette information n'est utile que pour rendre les mails plus sympa)
+* *Profile*
+** *Login* : Your login on the market, it cannot be changed
+** *Name* : Your name (this information is only useful to make the mails nicer)
 ** *Prénom* : Votre prénom (cette information n'est utile que pour rendre les mails plus sympa)
 ** *Pseudo* : Votre pseudo (uniquement pour les developpeurs)
-** *Email* : Votre mail
+** *Email* : Your mail
 ** *Email public* : Non utilisé pour le moment mais ca pourra être un email de contact pour les développeurs si un jour on met en place ce genre de service
-** *Langue* : Votre langue
+** *Language* : Your language
 ** *Compte paypal* : Votre mail de compte paypal (uniquement utilisé pour payer les developpeurs)
 ** *Mot de passe && Confirmer le mot de passe* : permet de changer votre mot passe
 * *CGU*
@@ -40,7 +40,7 @@ image::../images/market2.png[]
 
 Ici vous pouvoir : 
 
-* *Niveau*
+* *Level*
 ** *Jeedom* : votre niveau de service pack
 ** *Entrer un numéro de service pack* : permet d'entrer votre numéro de service pack (il se trouve dans le mail envoyé par Jeedom lors de votre commande)
 * *Clef d'installation*
@@ -64,7 +64,7 @@ Il est possible que le market vous demande des fois de remettre à zéro vos cle
 [TIP]
 N'oubliez pas de sauvegarder
 
-== Mes backups
+== My backups
 
 image::../images/market3.png[]
 
@@ -81,7 +81,7 @@ Si vous achetez un plugin officiel vous recevez une facture en revanche pour un 
 
 Vous pouvez aussi à partir de cet onglet entrer un code promo (un code pour un plugin par exemple que le développeur a pu vous transmettre) et faire un don.
 
-== Mes développments
+== My developments
 
 image::../images/market5.png[]
 
