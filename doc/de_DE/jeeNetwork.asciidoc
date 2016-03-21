@@ -1,8 +1,8 @@
-= Réseau Jeedom
+= Jeedom Netzwerk
 
 Page permettant d'interconnecter plusieurs Jeedom en mode maître/esclave. Cette possibilité permet par exemple de déporter le Z-Wave, le RFXCom, l'EnOcean ou le GSM sur d'autres Raspberry Pi ou Jeedom mini. Vous pourrez aussi à partir de cette page avoir un statut de vos Jeedom esclaves, consulter leur log, les mettre à jour, les arrêter, etc.
 
-== Le réseau Jeedom
+== Das Jeedom Netzwerk
 
 Accessible depuis Administration -> Réseau Jeedom :
 
@@ -29,16 +29,16 @@ Il faut ensuite installer les plugins voulus en déporté (attention tous les pl
 les activer et les configurer.
 
 Ensuite du coté du maître, aller dans Administration -> Configuration dans la partie "Configuration réseau" et 
-remplir la partie "Accès interne" : 
+kompletter Teil "Accès interne" : 
 
 image::../images/jeeNetwork3.JPG[]
 
-Voici le détail : 
+Hier sind die Details: 
 
-* *Protocole* : protocole utilisé, en général http
+* *Protokoll* : Das http Protokoll wird in der Regel verwendet
 * *Adresse/IP* : IP (ou adresse mais en interne c'est assez rare) du maître (en général de la forme 192.168.xxx.xxx)
 * *Complement* : si vous avez une mini, center ou pro vous n'avez rien à mettre sinon vous devez mettre /jeedom
-* *Port* : 80 si vous n'avez pas modifié la configuration nginx
+* *Port* : 80, wenn Sie nicht die nginx-Konfiguration ändern
 
 Ensuite toujours sur le maître, aller sur Administration -> Réseau Jeedom et faire "Ajouter un Jeedom" : 
 
@@ -47,7 +47,7 @@ image::../images/jeeNetwork.JPG[]
 - donner un nom
 - indiquer l'IP de l'esclave
 - indiquer le complément si nécessaire (ex : /jeedom si vous n'avez pas une mini/center/pro et que vous utilisez le /jeedom pour vous connecter sur l'esclave)
-- la clef API de l'esclave (elle se trouve sur l'esclave dans Administration -> Configuration)
+- Der API-Schlüssel des Slave (ist auf dem Slave im Menü Administration -> Konfiguration zu finden)
 - Sicherungskopie
 
 Si vous avez un message vous disant que c'est OK alors tout est lié, normalement le maître devrait détecter automatiquement les plugins de l'esclave.
@@ -55,7 +55,7 @@ Si vous avez un message vous disant que c'est OK alors tout est lié, normalemen
 [WICHTIG]
 En cas de soucis avec un plugin en mode deporté, reportez-vous à sa documentation.
 
-== Troubleshooting
+== Fehlerbehebung
 
-Erreur 404 lors de la sauvegarde::
-C'est qu'il y a une erreur sur la configuration reseau du maître (en général).
+Fehler 404 beim Speichern::
+Es geht darum, dass es einen Fehler in der Netzwerk Konfiguration des Masters (im Allgemeinen) gibt.

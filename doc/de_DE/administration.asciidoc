@@ -30,10 +30,10 @@ Diese Registerkarte enthält allgemeine Informationen zu Jeedom :
 
 image::../images/administration11.png[]
 
-Cette partie permet d'activer/désactiver certains composants du core jeedom : 
+In diesem Abschnitt können sie einige Komponenten des Jeedom Kerns aktivieren/deaktivieren : 
 
 * *Erweiterte Rechteverwaltung* :  Erlaubt, die Erweiterte Rechteverwaltung zu deaktivieren (wenn sie es nicht benutzen, kann das Jeedom schneller machen)
-* *Sécurité* : permet d'activer ou non la sécurité anti-piratage de Jeedom (brute force sur le mot de passe). 
+* *Anti-Piraterie-Sicherheit* : ermöglicht das Aktivieren der Anti-Piraterie-Sicherheit von Jeedom (Brute-Force das Passwortes). 
 
 == Datenbank
 
@@ -48,7 +48,7 @@ image::../images/administration2.png[]
 
 image::../images/administration3.png[]
 
-Partie très importante dans Jeedom, il faut absolument la configurer correctement sinon beaucoup de plugins risquent d'être non fonctionnels
+Das ist ein sehr wichtiger Teil in Jeedom, man muss ihn unbedingt richtig konfigurieren, andernfalls können viele Plugins nicht richtig funktionieren.
 
 * *Interner Zugriff* : Daten, zum verbinden von Jeedom mit einem anderen Gerät in demselben Netzwerk
 * *Protokolle* : Das zu verwendende Protokoll, meistens HTTP
@@ -70,7 +70,7 @@ Partie très importante dans Jeedom, il faut absolument la configurer correcteme
 ** *Verwaltung* : ermöglicht das Beenden und Neustarten des DNS Dienstes
 
 [TIP]
-Si vous êtes en HTTPS le port est le 443 (par défaut) et en HTTP le port est par défaut le 80
+Wenn Sie den HTTPS-Port haben, ist der Port 443 (Standard) und der HTTP-Port ist standardmäßig 80
 
 [WICHTIG]
 Cette partie est juste là pour expliquer à Jeedom son environnement : une modification du port ou de l'IP ici ne changera pas le port ou l'IP de Jeedom. Pour cela il faut se connecter en SSH et éditer le fichier /etc/network/interfaces pour l'IP et les fichiers etc/nginx/sites-available/default et etc/nginx/sites-available/default_ssl (pour le HTTPS). En cas de mauvaise manipulation de votre Jeedom, l'équipe Jeedom ne pourra être tenue responsable et pourra refuser toute demande de support.
@@ -104,7 +104,7 @@ image::../images/administration4.png[]
 * *drücken*
 ** *Globale Push URL* : Erlaubt eine URL hinzuzufügen, die bei Aktualisierung eines Befehls aufzurufen ist. Sie können die folgenden Tags benutzen :  \#value# für den Wert des Befehls, \#cmd_name# für den Namen des Befehls, \#cmd_id# für die eindeutige Kennung des Befehls, \#humanname# für den vollständigen Namen des Befehls (z.B. \#[Bad][Hydrometrie][Feuchtigkeit]#)
 
-== Configuration des intéractions
+== Interaktion Konfiguration
 
 image::../images/administration5.png[]
 
@@ -147,7 +147,7 @@ image::../images/administration8.png[]
 image::../images/administration9.png[]
 
 * *Anzahl der Fehler vor dem Deaktivieren der Geräte* : Anzahl von Kommunikationsausfällen der Geräte bevor sie Deaktiviert werden (eine Nachricht wird Sie warnen, wenn dies geschieht)
-* *Seuils des piles* : permet de gérer les seuils d'alertes globaux sur les piles
+* *Batterien Schwellenwerte* : erlaubt, die globalen Alarmschwellen für die Batterien zu verwalten
 
 == Markt und Updates
 
