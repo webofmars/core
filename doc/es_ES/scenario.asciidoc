@@ -16,10 +16,10 @@ Arriba encontrará 3 botones:
 
 * *Añadir*: permite añadir una escena
 * *Desactivar escenas*: desactiva todas las escenas
-* *Voir les variables* : permet de voir les variables, leur valeur ainsi que l'endroit où elle sont utilisées
+* * Ver variables* : Permite ver las variables, su valor actual y donde se estan usando,
 
 [TIP]
-Les scénarios en rouge sont ceux qui sont désactivés
+Las escenas en rojo son aquéllas que están desactivadas
 
 [TIP]
 Al igual que en muchos lugares en Jeedom, situar el ratón en la zona la izquierda mostrará un menú de acceso rápido (se puede mostrar como "siempre visible" desde la configuración de su perfil).
@@ -27,19 +27,19 @@ Al igual que en muchos lugares en Jeedom, situar el ratón en la zona la izquier
 Hay 2 modelos de escenarios: 
 
 * *Simple*: para hacer escenarios muy simples del estilo SI esto ENTONCES aquéllo
-* *Avancé* : là vous pouvez tout faire mais cela demande plus de connaissances
+* * * Avanzado: Permite un mayor control, pero se necesita más conocimiento
 
 [IMPORTANTE]
-Il est possible de passer un scénario du mode simple au mode avancé mais pas l'inverse
+Es posible pasar de una escena en modo simple a una en modo avanzado, pero no al contrario
 
-Lors de la création, Jeedom va vous demander le type de scénario à faire : 
+Cuando cree una escena, Jeedom le pedirá el tipo de escena: 
 
 image::../images/scenario2.JPG[]
 
 
 == Modo simple
 
-Voilà l'interface en mode simple : 
+Esta es la interfaz del modo simple: 
 
 image::../images/scenario9.JPG[]
 
@@ -49,7 +49,7 @@ Encontrará:
 * *Descripción*: descripción que se puede añadir para saber en qué consiste la escena o ejemplos de aplicación para la misma
 * *Activa*: establece si la escena está activa o no
 * *Exécuter en avant plan* : permet de lancer le scénario directement et non dans un fils d'éxecution séparé. Attention cette option peut être dangereuse car elle met en pause toutes les autres actions du scénario. IL NE FAUT JAMAIS l'activer sur un scénario déclenché par une programmation horaire
-* *Dernier lancement* : la date de dernière execution du scénario
+* *Última ejecución*: última fecha en la que se ejecutó la escena
 * *Estado*: el estado actual de la escena (ejecutándose, detenida...)
 
 Arriba a la derecha se encuentran:

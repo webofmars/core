@@ -40,20 +40,20 @@ Hier sind die Details:
 * *Complement* : si vous avez une mini, center ou pro vous n'avez rien à mettre sinon vous devez mettre /jeedom
 * *Port* : 80, wenn Sie nicht die nginx-Konfiguration ändern
 
-Ensuite toujours sur le maître, aller sur Administration -> Réseau Jeedom et faire "Ajouter un Jeedom" : 
+Danach immer auf dem Master auf Einstellungen -> Jeedom Netzwerk gehen und auf "Jeedom hinzufügen" klicken : 
 
 image::../images/jeeNetwork.JPG[]
 
-- donner un nom
-- indiquer l'IP de l'esclave
-- indiquer le complément si nécessaire (ex : /jeedom si vous n'avez pas une mini/center/pro et que vous utilisez le /jeedom pour vous connecter sur l'esclave)
+- einen Namen geben
+- Slave ID anzeigen
+- die Ergänzung anzugeben wenn nötig (z.B.: /jeedom wenn sie einen Mini/Center/Pro haben  und verwenden sie /jeedom, um sich auf dem Slave zu verbinden
 - Der API-Schlüssel des Slave (ist auf dem Slave im Menü Administration -> Konfiguration zu finden)
 - Sicherungskopie
 
-Si vous avez un message vous disant que c'est OK alors tout est lié, normalement le maître devrait détecter automatiquement les plugins de l'esclave.
+Wenn sie eine Meldung erhalten die sagt, es ist OK, dann ist alles miteinander verbunden, normalerweise sollte der Master automatisch die Plugins vom Slave erkennen. 
 
 [WICHTIG]
-En cas de soucis avec un plugin en mode deporté, reportez-vous à sa documentation.
+Bei Problemen mit einem Plugin im entfernten Modus finden Sie in der Dokumentation Hilfe.
 
 == Fehlerbehebung
 
