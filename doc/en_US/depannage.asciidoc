@@ -6,7 +6,7 @@ Il faut se connecter en SSH à jeedom et lancer un script d'auto-diagnostic :
 [source,bash]
 sudo chmod +x /usr/share/nginx/www/jeedom/health.sh;sudo /usr/share/nginx/www/jeedom/health.sh
 
-Voila le résultat si tout est bon : 
+Here is the result if everything is fine 
 
 image::../images/depannage.png[]
 
@@ -17,7 +17,7 @@ Vous pouvez aussi regarder le log /usr/share/nginx/www/jeedom/log/nginx.error, t
 ''''
 
 J'ai un problème d'identifiant BDD::
-Il faut réinitialiser ceux-ci
+you need to reboot these one
 [source,bash]
 bdd_password=$(cat /dev/urandom | tr -cd 'a-f0-9' | head -c 15)
 echo "DROP USER 'jeedom'@'localhost'" | mysql -uroot -p
