@@ -684,7 +684,7 @@
         "Filtre (optionnel)": "Filtro (opcional)",
         "Autoriser REMOTE_USER": "Autorizar REMOTE_USER",
         "Configuration des équipements": "Configuración de los dispositivos",
-        "Nombre d'échecs avant désactivation de l'équipement": "Nombre d'échecs avant désactivation de l'équipement",
+        "Nombre d'échecs avant désactivation de l'équipement": "Número de fallos antes de la desactivación de equipos",
         "Seuils des piles": "Umbrales de baterías",
         "Danger": "Peligro",
         "Ok": "Ok",
@@ -711,7 +711,7 @@
         "Adresse syslog udp": "Dirección syslog udp",
         "Seuil des piles": "Umbral de baterías",
         "Beta (développement, instable)": "Beta (en desarrollo, no estable)",
-        "Système (OS)": "Sistema (OS)",
+        "Système (OS)": "Sistema Operativo (SO)",
         "ATTENTION : ces opérations sont risquées, vous pouvez perdre l'accès à votre système et à Jeedom. L'équipe Jeedom se réserve le droit de refuser toute demande de support en cas de mauvaise manipulation.": "PRECAUCIÓN: Estas operaciones conllevan riesgo, puede perder el acceso a su sistema y Jeedom. El equipo de Jeedom se reserva el derecho de rechazar cualquier solicitud de soporte en caso de una mala utilización.",
         "Lancer": "Lanzamiento"
     },
@@ -1403,8 +1403,8 @@
         "Faire une sauvegarde avant la mise à jour": "Hacer una copia de seguridad antes de la actualización",
         "Mettre à jour automatiquement": "Actualizar automáticamente",
         "Branche": "Rama",
-        "Stable": "Stable",
-        "Développement": "Développement"
+        "Stable": "Estable",
+        "Développement": "Desarrollo"
     },
     "desktop/js/jeeNetwork.js": {
         "Suppression effectuée avec succès": "Borrado terminado con éxito",
