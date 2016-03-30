@@ -2,22 +2,22 @@
 
 Most configuration settings are here. Although there are a lot, all are pre-configured by default.
 
-La page est accessible par Administration -> Configuration : 
+The page is accessible by Administration -> Configuration : 
 
 image::../images/administration.png[]
 
 [IMPORTANT]
-Si vous n'êtes pas en mode expert certains paramètres peuvent ne pas être visibles.
+If you are not on expert mode, some settings can not be visible
 
 == General settings
 
 image::../images/administration1.png[]
 
-Dans cet onglet on retrouve des informations générales sur Jeedom : 
+In this tag we have general informations on Jeedom : 
 
 * *API key* : your API key, to be used at each Jeedom API call
 * *System* : hardware type
-* *Clef hardware* : clef hardware de votre Jeedom sur le market. Si votre Jeedom n'apparait pas dans la liste de vos Jeedom sur le market il est conseillé de cliquer sur ce bouton
+* *Hardware key* : hardware key of your Jeedom on the market. If your Jeedom is not appearing on your Jeedom list on the market, it is advised to click on this button
 * *Commande d'information utilisateur* : permet de spécifier une commande de type message qui sera utilisée par Jeedom pour vous communiquer des messages importants. Vous pouvez indiquer plusieurs commandes séparées par des &&
 * *Language* : Language of your Jeedom
 * *Session lifespan (hours)* : PHP sessions life time, it is advisable not to change it

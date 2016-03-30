@@ -1,6 +1,6 @@
 = Saving and re-establishment
 
-La sauvegarde et restauration de Jeedom permet de sauvegarder celui-ci et de le restaurer sur lui-même ou sur un autre Jeedom.
+The saving and the re-establishing of Jeedom allow to save this one and to re-establish it on itself or on another Jeedom.
 
 == Configuration
 

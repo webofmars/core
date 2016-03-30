@@ -12,7 +12,7 @@ Attention si vous êtes en DIY il faut ajouter un /jeedom après l'ip les URLs.
 
 La première requête est utilisée uniquement pour piloter un scénario.
 
-Voici l'URL = http://\#IP_JEEDOM#/core/api/jeeApi.php?apikey=\#APIKEY#&type=scenario&id=\#ID#&action=\#ACTION#
+Here is the URL = http://\#IP_JEEDOM#/core/api/jeeApi.php?apikey=\#APIKEY#&type=scenario&id=\#ID#&action=\#ACTION#
 
 \#IP_JEEDOM# correspond à votre url d’accès à Jeedom. Il s’agit (sauf si vous êtes connecté à votre réseau local) de l’adresse internet que vous utilisez pour accéder à Jeedom depuis l’extérieure.
 

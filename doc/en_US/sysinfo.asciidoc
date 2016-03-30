@@ -1,4 +1,4 @@
-= Informations système
+= System informations
 
 La page systeme information vous permet d'avoir un résumé général sur votre système (hardware + OS)
 

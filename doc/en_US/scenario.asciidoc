@@ -100,7 +100,7 @@ image::../images/scenario3.JPG[]
 
 En haut la partie générale où l'on retrouve :
 
-* *nom*
+* *name*
 * *groupe* : permet d'organiser les scénarios
 * *Actif* : Si le scénario est actif ou non
 * *Visible* : Si le scénario est visible ou non
@@ -156,7 +156,7 @@ Vous retrouvez ici les possibilitées suivantes :
 
 image::../images/scenario8.JPG[]
 
-Dans l'ordre : 
+In order : 
 
 * un bouton pour déplacer l'action (les doubles flèches), il suffit de cliquer et maintenir le bouton puis de déplacer le bloc
 * un bouton pour supprimer l'action
@@ -179,8 +179,8 @@ Vous avez ici aussi un bouton pour aller chercher une commande
 You can use any of the following symbols for the operators : 
 
 * == : égal,
-* > : supérieur,
-* >= : supérieur ou égal,
+* > : superior,
+* >= : superior or equal,
 * < : inférieur,
 * \<= : inférieur ou égal,
 * != : différent,
@@ -370,7 +370,7 @@ Scénario::
 * *$scenario\->getGroup()*;
     ** Retourne le groupe du scénario
                            
-* *$scenario\->getIsActive()*;
+* * $scenario\-&gt; getIsActive() *;
     ** Retourne l'état du scénario
                               
 * *$scenario\->setIsActive($active)*;
@@ -414,7 +414,7 @@ Fonctionalité permettant de transformer un scénario en template pour par exemp
 
 image::../images/scenario15.JPG[]
 
-Vous verrez alors cette fenêtre : 
+Then you will see this window : 
 
 image::../images/scenario16.JPG[]
 
@@ -425,14 +425,14 @@ A partir de celle vous avez la possibilité :
 * De créer un template à partir du scénario courant (n'oubliez pas de donner un nom)
 * Consulter les templates actuellement présent sur votre Jeedom
 
-Une fois un clic sur un template vous obtenez : 
+Once you click on the template you get : 
 
 image::../images/scenario17.JPG[]
 
-En haut vous pouvez : 
+On top you can : 
 
 * *Partager* : partager le template sur le market
-* *Supprimer* : supprimer le template 
+* *Cancel* : cancel the template 
 * *Télécharger* : permet de récupérer le template sous forme de fichier JSON pour le renvoyer sur un autre Jeedom par exemple
 
 En dessous vous avez la partie pour appliquer votre template au scénario courant.
@@ -442,13 +442,13 @@ Etant donné que d'un Jeedom à l'autre ou d'une installation à une autre les c
 
 Il vous suffit de remplir la correspondance des commandes puis de faire appliquer
 
-== Les logs
+== The logs
 
 Vous pouvez accéder aux logs d'éxecution d'un scénario en cliquant sur le bouton log de celui-ci : 
 
 image::../images/scenario17.JPG[]
 
-Vous obtenez : 
+You get : 
 
 image::../images/scenario19.JPG[]
 

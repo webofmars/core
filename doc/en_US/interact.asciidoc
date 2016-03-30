@@ -175,7 +175,7 @@ Ici les réponses sont simplement non et oui mais on pourrait y mettre une phras
 [WARNING]
 Les tags ne fonctionnent pas dans les conversions binaires.
 
-====== Utilisateurs autorisés
+====== Authorized users
 
 Le champ "Utilisateurs autorisés" permet de n’autoriser que certaines personnes à exécuter la commande, vous pouvez mettre plusieurs profils en les séparant par un "|".
 
@@ -237,7 +237,7 @@ Avec l'ajout de l'option "i" on constate qu'il ne reste plus que 55 phrases gén
 
 Comme c'est un sujet extrêmement complexe je ne vais pas aller plus en détail ici, il y a suffisamment de tuto sur le net pour vous aider, et n'oublie pas Google est ton ami aussi car oui, c'est mon ami, c'est lui qui m’a appris à comprendre les Regexp et même à coder, donc si il m'a aidé il peut aussi t'aider si tu y mets de la bonne volonté.
 
-Lien utile : 
+Useful link : 
 
 * http://google.fr
 
@@ -252,7 +252,7 @@ Lien utile :
 
 
 
-== Exemples
+== Examples
 
 === Réponse composé de plusieurs informations
 
@@ -293,7 +293,7 @@ Pour rendre encore plus flexible on peut ajouter des synonymes, mais dans ce cas
 
 
 
-=== Connaitre la température/humidité/luminosité
+=== Knowing the temperature/humidity/brightness
 
 ==== Version basique
 On pourrait écrire la phrase en dur comme par exemple "quelle est la température du salon", mais il faudrait en faire une pour chaque capteur de température, luminosité et humidité, avec le système de génération de phrase Jeedom, on peut donc avec une seul interaction générer les phrases pour tous les capteurs de ces 3 types de mesure.
@@ -434,7 +434,7 @@ image::../images/interact031.png[]
 
 Interaction à nouveau relativement simple, dans la demande on crée le tag *\#nom#*, puis dans la réponse on fait une composition entre du texte fixe et la valeur de retour du scénario qui viendra remplacer le tag *\#value#*, puis enfin dans la partie action le lien avec le scénario à exécuter qui recevra le tag *\#nom#*
 
-Pour le scénario :
+For the scenario :
  
 image::../images/interact032.png[]
 

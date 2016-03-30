@@ -1,6 +1,6 @@
-= Principe
+= Principal
 
-Jeedom est composé d'un core qui se charge des fonctions de base : 
+Jeedom is composed of a core which is on charge of basic functions : 
 
 * scenario
 * historisation
