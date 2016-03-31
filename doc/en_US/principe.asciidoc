@@ -4,16 +4,16 @@ Jeedom is composed of a core which is on charge of basic functions :
 
 * scenario
 * historisation
-* affichage
+* display
 * interaction
-* mise à jour et sauvegarde
+* update and saving
 
 Around this core are grafted plugins that can be of any kind :
  
 * protocole domotique (zwave, rfxcom, enOcean...)
 * protocole IP (knx,xPL...)
 * objet communiquant (nest, netatmo...)
-* haut niveau (alarme, thermostat...)
+* high level (alarm, thermostat...)
 * interface (widget)
 * organisation (agenda, Google agenda)
 * développement (script)

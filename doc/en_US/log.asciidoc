@@ -8,14 +8,14 @@ Pour y accèder il faut aller dans Administration -> Log :
 
 image::../images/log1.JPG[]
 
-Vous obetenez : 
+You will get : 
 
 image::../images/log.JPG[]
 
 La page de Logs est assez simple, en haut à gauche une liste déroulante permettant le choix du log à regarder, en haut à droite vous avez 5 boutons :
 
-* *Rafraîchir* : permet de rafraîchir le log actuel,
-* *Télécharger* : permet de télécharger le log actuel,
+* *Refresh* : allows to refresh the actual log,
+* *Download* : allows to download an actual log,
 * *Vider* : permet de vider le log actuel,
 * *Supprimer* : permet de supprimer le log actuel, si Jeedom en a besoin il le recréera automatiquement,
 * *Supprimer tous les logs* : supprime tous les logs présents.

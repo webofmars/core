@@ -52,7 +52,7 @@ souvent cela vient d'une commande qui ne se termine pas
 
 ''''
 
-Mon scenario est lent à se declencher::
+My scenario is slow to launch::
 Si dans le scénario il n'y a pas de pause il est conseillé de cocher la case "éxécuter le plus rapidement possible" (disponible en mode expert)
 
 ''''
@@ -98,7 +98,7 @@ Cela est du à MySQL qui s'est arrêté, ce n'est pas normal, les cas courants s
 * soucis de place sur le système de fichier (peut être vérifié en faisant la commande "df -h", en ssh)
 * problème de corruption de fichier, arrive souvent suite à un arrêt non propre de jeedom (coupure de courant)
 
-Malheureusement il n'y a pas beaucoup de solution si c'est le deuxieme cas, 
+Unfortunately there is not much solutions if it's the second case, 
 le mieux étant de récupérer un backup (disponible dans /usr/share/nginx/www/jeedom/backup par défaut), 
 de réinstaller jeedom et de restaurer le backup.
 Vous pouvez aussi en ssh regarder pourquoi mysql ne veut pas démarrer : 
@@ -107,7 +107,7 @@ sudo su -
 service mysql stop
 mysqld --verbose
 
-Ou consulter le log : /var/log/mysql/error.log
+Or check the log : /var/log/mysql/error.log
 
 ''''
 

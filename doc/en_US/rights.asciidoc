@@ -13,7 +13,7 @@ En haut à droite vous retrouvez le login de l'utilisateur pour lequel vous modi
 [IMPORTANT]
 Si l'utilisateur est admin, vous ne pouvez lui restreindre ses droits. Il faut d'abord lui désactiver les droits admin
 
-== Général
+== General
 
 image::../images/rights2.png[]
 

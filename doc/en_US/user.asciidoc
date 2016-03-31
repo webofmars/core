@@ -15,9 +15,9 @@ Vous avez aussi un bouton pour ajouter un utilisateur. Si vous cliquez dessus, J
 
 image::../images/user3.png[]
 
-En dessous vous avez un tableau :
+Below there is a board :
 
-* *Nom d'utilisateur* : le login de l'utilisateur
+* *User name* : user login
 * *Actions* : La possibilité de changer le mot de passe de l'utilisateur ou de supprimer son compte
 * *Actif* : la possibilité de désactiver le compte
 * *Droits* : la possibilité de passer ou non l'utilisateur en mode administrateur (permet d'avoir accès à tous ce qui est configuration de Jeedom, création des scénarios, gestion des plugin, configuration des équipements, des designs, des vues...)

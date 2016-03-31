@@ -1,6 +1,6 @@
 = API HTTP
 
-Jeedom met à disposition des développeurs et des utilisateurs une API complète afin de pouvoir piloter Jeedom depuis n'importe quel objet connecté.
+Jeedom provides developers and users with a full API to be able to control Jeedom from any connected object.
 
 Deux API sont disponibles : une orientée développeur qui se pilote en JSON RPC 2.0, et une autre via URL et requête HTTP.
 

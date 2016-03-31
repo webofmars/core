@@ -14,9 +14,9 @@ On retrouve tout en haut un résumé du nombre d'objets existants, du nombre d'�
 
 En dessous on retrouve un cadre par objet, dans chaque cadre se trouve la liste des équipements (en bleu) contenus dans l'objet. Vous avez sur la ligne du nom de l'objet jusqu'à 3 boutons, dans l'ordre : 
 
-* le premier sert à ouvrir la page de configuration de l'objet dans un nouvel onglet
+* the first one is used to open the configuration page of the object in the new tag
 * le deuxième donne un résumé sur l'objet
-* le dernier permet de masquer la liste des équipements (en dessous en bleu)
+* the last one allows to hide the equipment lists (in blue below)
 
 [TIP]
 La couleur de fond des cadres objets dépend de la couleur mise dans la configuration de l'objet
@@ -68,7 +68,7 @@ image::../images/display9.png[]
 L'onglet information contient les informations générales de l'équipement : 
 
 * *ID* : identifiant unique dans la base de données
-* *Nom* : nom de l'équipement
+* *Name* : equipment name
 * *ID logique* : identifiant logique de l'équipement (peut être vide)
 * *ID de l'objet* : identifiant unique de l'objet père (peut être vide)
 * *Date de création* : date de création de l'équipement

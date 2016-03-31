@@ -8,7 +8,7 @@ Il est accessible par le menu Administration -> Centre de mise à jour :
 
 image::../images/update.JPG[]
 
-Une fois dessus vous obtenez : 
+Once on it you will get : 
 
 image::../images/update2.png[]
 
@@ -66,7 +66,7 @@ Il est possible dans Administration -> Configuration puis dans la partie "Market
 
 image::../images/administration10.png[]
 
-Ici on retrouve : 
+Here we have : 
 
 * *Adresse* : adresse du market, à ne surtout jamais changer à moins que cela soit sur demande de l'équipe de support
 * *Nom d'utilisateur* : nom d'utilisateur du market
@@ -91,7 +91,7 @@ Il est possible de faire une mise à jour de Jeedom directement en SSH, voici co
 sudo php /usr/share/nginx/www/jeedom/install/install.php
 ----
 
-Voilà les paramètres possibles :
+Here are the possible settings :
 
 * *mode* : force, pour lancer une mise à jour en mode forcé (ne tiens pas compte des erreurs)
 * *version* : numéro de version, pour réapliquer les changements depuis cette version

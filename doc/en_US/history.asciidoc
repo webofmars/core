@@ -15,7 +15,7 @@ Un des premiers éléments est de savoir si la commande que vous historisez est 
 * *Non évènement* : c'est le cas le plus simple. Jeedom va collecter toutes les 5min la valeur de la commande et historiser le résultat.
 * *Evènement* : Jeedom sait qu'il ne peut récupérer la valeur. Il attend donc que le plugin (et indirectement le module) la lui transmette. Ensuite, en fonction de la fréquence et de vos réglages, il se peut qu'un premier lissage intervienne. En effet, si Jeedom reçoit 2 valeurs à moins de 5min d'intervalle, il va par défaut en faire la moyenne pour n'en stocker qu'une. Vous pouvez bien sûr changer ce réglage pour qu'au lieu de la moyenne il prenne le maximum, le minimum ou au contraire qu'il garde les deux. Nous verrons par la suite comment changer ce réglage.
 
-=== Archivage
+=== Archiving
 
 L'archivage de données permet à Jeedom de réduire la quantité de données conservées en mémoire. Cela permet de ne pas utiliser trop de place et de ne pas ralentir le système. En effet, si vous conservez toute les mesures, cela fait d'autant plus de points à afficher et donc peut considérablement allonger les temps pour rendre un graphique. En cas d'un nombre trop important de points, cela peut même faire planter l'affichage du graphique.
 
@@ -45,7 +45,7 @@ Nous allons voir ici les détails de la partie configuration des commandes, qui 
 
 image::../images/history3.JPG[]
 
-On retrouve ici : 
+We have here : 
 
 * *Afficher les statistiques sur les widgets* : permet d'afficher ou non les statistiques sur les widgets ; il faut que le widget soit compatible, ce qui est le cas pour la plupart ; il faut aussi que la commande soit de type numérique
 * *Période de calcul pour min, max, moyenne (en heures)* : période de calcul des statistiques (par défaut 24h), il n'est pas possible de mettre moins d'une heure
@@ -103,7 +103,7 @@ On retrouve en haut à droite la période d'affichage (ici sur la dernière sema
 * *Aire*  : affiche le graphique sous forme d'une aire. 
 * *Colonne** : affiche le graphique sous forme de barres.
 
-Voici quelques exemples : 
+Here are few examples : 
 
 image::../images/history5.JPG[]
 

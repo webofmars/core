@@ -14,7 +14,7 @@ Vous pouvez dans votre profil choisir la vue par défaut lors du clic sur le men
 
 == The views
 
-Voilà un exemple de vue :
+Here is an example of view :
 
 image::../images/view2.png[]
 

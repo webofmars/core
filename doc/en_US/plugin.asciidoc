@@ -1,8 +1,8 @@
 = Plugin
 
-Le sous-menu Plugins, permet de gérer ses plugins, à savoir : les télécharger, les mettre à jour et les activer.
+Plugins submenu allows you to manage plugins, namely : download, update, and activate them.
 
-== Gestion des plugins
+== Managing plugins
 
 Vous pouvez accèder à la page plugin à partir de Plugins -> Gestion des plugins : 
 
@@ -24,7 +24,7 @@ En haut vous retrouvez l'ID et le nom du plugin, ainsi que la version installée
 [IMPORTANT]
 Lors du téléchargement d'un plugin celui-ci n'est pas activé, il faut donc que vous l'activiez
 
-En dessous vous retrouvez 4 boutons : 
+Bellow you have 4 buttons : 
 
 * *Voir sur le market* : permet de voir la fiche du plugin 
 * *Envoyer sur le market* : permet d'envoyer le plugin sur le market (uniquement disponible si vous en etes l'auteur)

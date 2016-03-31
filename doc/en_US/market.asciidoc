@@ -17,7 +17,7 @@ Here you can fix your settings of your profile
 * *Profile*
 ** *Login* : Your login on the market, it cannot be changed
 ** *Name* : Your name (this information is only useful to make the mails nicer)
-** *Prénom* : Votre prénom (cette information n'est utile que pour rendre les mails plus sympa)
+** *Name* : Your name (this information is useful only to make mails funnier)
 ** *Pseudo* : Votre pseudo (uniquement pour les developpeurs)
 ** *Email* : Your mail
 ** *Email public* : Non utilisé pour le moment mais ca pourra être un email de contact pour les développeurs si un jour on met en place ce genre de service
@@ -34,7 +34,7 @@ Here you can fix your settings of your profile
 [TIP]
 N'oubliez pas de sauvegarder
 
-== Mes Jeedoms
+== My Jeedoms
 
 image::../images/market2.png[]
 
@@ -48,7 +48,7 @@ Ici vous pouvoir :
 ** *Clef d'installation* : vous pouvez demander ici une réinitialisation des Jeedom liés à votre compte. Attention, dépassé les 2 demandes dans le mois, une vérification manuelle a lieu, la demande peut donc prendre plus de temps.
 [TIP]
 Il est possible que le market vous demande des fois de remettre à zéro vos clefs d'installation, c'est normal, il suffit de suivre ce qu'il vous demande
-* *Mes Jeedoms* : c'est ici que sont listés tous vos Jeedoms
+* *My Jeedoms* : it's here where your Jeedoms are listed
 ** *Nom* : le nom que vous voulez donner à votre Jeedom (se retrouve dans le nom du backup si vous avez l'abonnement de sauvegarde cloud)
 ** *Protocole* : protocole utilisé pour se connecter à votre Jeedom (se configure à partir de Jeedom)
 ** *IP ou adresse* : IP ou addresse de ce Jeedom, se configure dans Jeedom, si vous ne mettez rien ça sera la dernière IP connue
@@ -58,7 +58,7 @@ Il est possible que le market vous demande des fois de remettre à zéro vos cle
 ** *DNS* : permet de personnaliser votre DNS Jeedom
 ** *Date de création* : date de création de ce Jeedom sur votre compte market (pour rappel cela se fait automatiquement lorsque vous le liez au market)
 ** *Dernière mise à jour* : dernière communication du Jeedom avec le market
-** *Hardware* : Nom du hardware du Jeedom
+** *Hardware* : Hardware name of Jeedom
 ** *Version* : la version de Jeedom installée
 
 [TIP]

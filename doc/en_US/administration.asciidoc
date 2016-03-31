@@ -66,7 +66,7 @@ Partie très importante dans Jeedom, il faut absolument la configurer correcteme
 ** *Deactivate Jeedom network manager* : tells Jeedom not to monitor the network (to be activated if Jeedom is not connected to any network)
 * *DNS Jeedom* : permet un accès distant à votre Jeedom sans avoir besoin d'un DNS, d'une IP fixe ou d'ouvrir les ports de votre box
 ** *Utiliser les DNS Jeedom* : active les DNS Jeedom (attention cela nécessite au moins un service pack)
-** *Statut http* : statut du DNS http
+** *Status http* : status of the DNS http
 ** *Gestion* : permet d'arrêter et relancer le service DNS
 
 [TIP]
@@ -129,7 +129,7 @@ image::../images/administration7.png[]
 
 Voir link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-log.html#_configuration[ici]
 
-== Configuration LDAP
+== LDAP Configuration
 
 image::../images/administration8.png[]
 

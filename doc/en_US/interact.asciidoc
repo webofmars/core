@@ -14,7 +14,7 @@ Type de commandes :
 
 Ces commandes peuvent être obtenues par :
 
-* SMS : envoyer un SMS pour lancer des commandes (action) ou poser une question (info).
+* SMS : send a SMS to launch the commands (action) or ask a question (info).
 * Vocal : dicter une phrase avec Siri, Google Now, SARAH, etc... Pour lancer des commandes (action) ou poser une question (info).
 * HTTP : lancer une URL HTTP contenant le texte (ex. Tasker, Slack) pour lancer des commandes (action) ou poser une question (info).
 
@@ -85,7 +85,7 @@ Ici vous trouvez 2 zones avec plusieurs éléments en leur sein :
 ** *Phrases générées* : Bouton qui permet de voir les phrases générées par la phrase modèle génératrice (Vous devez sauver l'interaction pour générer ou régénérer les phrases).
 ** *Nombre de phrases générées* : nombre de phrases générées.
 
-==== Interaction simple
+==== Simple interaction
 
 La façon la plus simple de configurer une interaction c'est de lui donner un modèle générateur rigide sans variation possible, cette méthode ciblera très précisément une commande, ou un scénario.
 
@@ -266,12 +266,12 @@ Dans cet exemple on voit une phrase simple qui va nous retourner une réponse av
 
 
 
-=== Y a-t-il quelqu'un dans la chambre ?
+=== Is there someone in the room ?
 
 ==== Version basique
 
-* La question est donc "y’a-t-il quelqu’un dans la chambre"
-* La réponse sera "non il n’y a personne dans la chambre" ou "oui il y a quelqu’un dans la chambre"
+* The question is "is there someone in the room"
+* The answer is "no no one is in the room" or "yes there is someone in the room"
 * La commande qui répond à ça est "\#[Chambre de julie][FGMS-001-2][Présence]#"
 
 image::../images/interact017.png[]
@@ -281,7 +281,7 @@ Cette exemple cible précisément un équipement spécifique ce qui permet d'avo
 ==== Evolution 
 
 * La question est donc "\#commande# [dans la |dans le] \#objet#"
-* La réponse sera "non il n’y a personne dans la pièce" ou "oui il y a quelqu’un dans la pièce"
+* The answer will be "no there is nobody in the room" ou "yes there is someone in the room"
 * Il n'y a pas de commande qui répond à ça dans la partie Action vu que c'est une interaction Multiple commande
 * En ajoutant une expression régulière on peut nettoyer les commandes que l'on ne veut pas voir pour n'avoir que les phrases sur les commandes "Présence".
 
@@ -316,7 +316,7 @@ On peut aussi ajouter un filtre Regexp pour enlever quelques commandes. En repre
 
 image::../images/interact020.png[]
 
-On peut donc voir un regexp : 
+So we can see a regexp : 
 
 *(batterie|latence|pression|vitesse|consommation)*
 
@@ -338,7 +338,7 @@ Il est possible de piloter une lampe en pourcentage (variateur) ou un thermostat
 image::../images/interact022.png[]
 
 Comme on le voit, il y a ici dans la demande le tag *\#consigne#* (on peut mettre ce que l'on veut) qui est repris dans la commande du variateur pour appliquer la valeur voulue.
-Pour ce faire ont a 3 parties :
+We have 3 parts :
 * Demande : dans laquelle on crée un tag qui va représenter la valeur qui sera envoyée à l'interaction.
 * Réponse : on réutilise le tag pour la réponse afin d'être sûr de ce que Jeedom a compris.
 * Action : on met une action sur la lampe que l'on veut piloter et dans la valeur on y passe notre tag #consigne#.

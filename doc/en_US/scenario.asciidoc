@@ -1,6 +1,6 @@
 = Scenario
 
-Voici la partie la plus importante dans la domotique : les scénarios. Véritable cerveau de la domotique c’est ce qui permet d’interagir avec le monde réel de manière "intelligente".
+Here is the most important part in home automation: scenarios. Real brain of the automation is what allows you to interact with the real world in an "intelligent".
 
 == The scenario page
 
@@ -8,13 +8,13 @@ Pour y acceder rien de plus simple, il suffit d'aller sur Outils -> Scénario :
 
 image::../images/scenario1.JPG[]
 
-Un fois dessus vous obtenez :
+Once on it you will get :
 
 image::../images/scenario.JPG[]
 
 En haut on retrouve une série de 3 boutons : 
 
-* *Ajouter* : permet d'ajouter un scénario
+* *Add* : allows to add a scenario
 * *Désactiver scénarios* : permet de désactiver tous les scénarios
 * *Voir les variables* : permet de voir les variables, leur valeur ainsi que l'endroit où elle sont utilisées
 
@@ -37,13 +37,13 @@ Lors de la création, Jeedom va vous demander le type de scénario à faire :
 image::../images/scenario2.JPG[]
 
 
-== Mode simple
+== Simple mode
 
 Voilà l'interface en mode simple : 
 
 image::../images/scenario9.JPG[]
 
-Vous retrouvez : 
+You see : 
 
 * *Nom* : le nom du scénario
 * *Description* : une description que vous pouvez ajouter pour savoir ce que fait le scénario et faire un suivi par exemple
@@ -92,7 +92,7 @@ Ce scénario sera déclenché aussi bien lors de la détection d'une présence q
 [IMPORTANT]
 Il ne faut pas oublier de faire le même genre de scénario mais pour éteindre la lumière lorsque plus personne n'est présent
 
-== Mode avancée
+== Advanced mode
 
 Voici un exemple de scénario en mode avancé :
 
@@ -178,12 +178,12 @@ Vous avez ici aussi un bouton pour aller chercher une commande
 
 You can use any of the following symbols for the operators : 
 
-* == : égal,
+* ==: equal,
 * > : superior,
 * >= : superior or equal,
 * < : inférieur,
-* \<= : inférieur ou égal,
-* != : différent,
+* \<= : inferior or equal,
+* != : different,
 * matches : contient (ex : #[Salle de bain][Hydrometrie][etat]# matches "/humide/" ),
 * not ( ... matches ...) : ne contient pas (ex : not(#[Salle de bain][Hydrometrie][etat]# matches "/humide/")),
 
@@ -202,8 +202,8 @@ Un tag est remplacé lors de l'exécution du scénario par sa valeur
 * *\#heure#* : heure courante (ex : 17 pour 17h15),
 * *\#minute#* : minute courante (ex : 15 pour 17h15),
 * *\#jour#* : jour courant,
-* *\#mois#* : mois courant,
-* *\#annee#* : année courante,
+* *\#month#* : current month,
+* *\#year#* : current year,
 * *\#time#* : heure et minute courante (ex : 1715 pour 17h15),
 * *\#timestamp#* : retourne le nombre de secondes depuis le 1er janvier 1970,
 * *\#date#* : jour et mois courant (ex : 1215 pour le 15 décembre),
@@ -322,10 +322,10 @@ En plus des commandes domotiques vous avez accès aux actions suivantes :
 * *sleep* : pause de x seconde(s)
 * *wait* : attend jusqu'a ce que la condition soit valide (maximum 2h), le timeout est en seconde                   
 * *variable* : création/modification d'une ou de la valeur d'une variable
-* *scenario* : permet le controle des scénarios
+* *scenario* : allows the scenario controls
 * *stop* : arrête le scénario
 * *icon* : permet de changer l'icône de représentation du scénario
-* *say* : permet de faire dire un texte à Jeedom (ne marche que si un onglet Jeedom est ouvert dans le navigateur)
+* *say* : allows to say a text to Jeedom (only work if the Jeedom tag is open in the browser)
 * *gotodesign* : change le design affiché sur tous les navigateurs par le design demandé
 * *log* : permet de rajouter un message dans les logs
 * *message* : permet d'ajouter un message dans le centre de message

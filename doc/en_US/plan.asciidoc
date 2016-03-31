@@ -2,22 +2,22 @@
 
 This page allows to configure the display of all your automation in a very thin way. This one takes time but its own limit is your imagination.
 
-Elle est accessible par 
+It is accessible by 
 
 image::../images/plan1.png[]
 
 [TIP]
 Comme vous pouvez le voir sur la capture il est possible d'aller directement sur un design grace au sous-menu
 
-Voici un exemple de design :
+Here is an example of design :
 
 image::../images/plan2.png[]
 
 Sur cette pas on retrouve, en haut (et dans l'ordre) : 
 
-* un menu pour changer de design
+* A menu to change the design
 * un menu pour créer un nouveau design
-* un pour le supprimer
+* one to cancel
 * un bouton pour éditer le design en cours
 * un pour passer en mode plein écran
 
@@ -44,10 +44,10 @@ N'oubliez pas de sauvegarder après chaque modification
 
 image::../images/plan6.png[]
 
-On retrouve ici : 
+We have here : 
 
 * *General*
-** *Nom* : Le nom de votre design
+** *Name* : The name of your design
 ** *Icône* : Une icône pour celui-ci (apparait dans le menu de choix de design)
 ** *Disponible sur téléphone* : Rend ce design visible dans la liste des designs en version mobile
 ** *Image* : add a background image to design
@@ -72,7 +72,7 @@ Vous voyez apparaître votre widget :
 image::../images/plan9.png[]
 
 [TIP]
-Vous pouvez le déplacer en cliquant/glissant le widget
+You can move it by clicking/sliding the widget
 
 Vous avez accès a la configuration avancée de l'affichage du widget en double cliquant sur celui-ci :
 
@@ -96,7 +96,7 @@ En fonction des plugins certaines options peuvent ne pas marcher
 [TIP]
 Vous pouvez en bas à droite redimensionner les widgets
 
-== Ajout texte/html
+== Add text/html
 
 image::../images/plan11.png[]
 
@@ -108,8 +108,8 @@ Un double clic dessus vous ammène à la fenêtre de configuration :
 
 image::../images/plan13.png[]
 
-* *Nom* : permet de rentrer le texte ou le code html/javascript
-* *Icone* : permet de mettre une icône à la place du texte
+* *Name* : allows to enter the text or the code html/javascript
+* *Icon* : allows to place the icon instead of the text
 * *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
 * *Couleur du textes* : permet de changer la couleur des icônes et des textes (attention à bien passer défaut sur Non)
 * *Arrondir les angles (ne pas oublier de mettre %, ex 50%)* : permet d'arrondir les angles, ne pas oublier de mettre le %
@@ -122,7 +122,7 @@ image::../images/plan13.png[]
 [TIP]
 Vous pouvez en bas à droite le redimensionner
 
-== Ajout d'un scénario
+== Add a scenario
 
 image::../images/plan14.png[]
 
@@ -150,7 +150,7 @@ image::../images/plan17.png[]
 [TIP]
 Vous pouvez en bas à droite le redimensionner
 
-== Ajout d'un lien
+== Add a link
 
 image::../images/plan18.png[]
 
@@ -166,12 +166,12 @@ Un double clic dessus vous amene sur la configuration avancée :
 
 image::../images/plan21.png[]
 
-On retrouve ici : 
+We have here : 
 
 * *Nom* : permet de changer le nom du lien
-* *Lien* : destination du lien
+* *Link* : link destination
 * *Position* : permet de régler finement la position du lien sur la destination (pour par exemple arriver directement sur la cuisine)
-* *Icone* : permet de mettre une icône à la place du texte
+* *Icon* : allows to place the icon instead of the text
 * *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
 * *Couleur du textes* : permet de changer la couleur des icônes et des textes (attention à bien passer defaut sur Non)
 * *Arrondir les angles (ne pas oublier de mettre %, ex 50%)* : permet d'arrondir les angles, ne pas oublier de mettre le %
@@ -184,11 +184,11 @@ On retrouve ici :
 [TIP]
 Vous pouvez en bas à droite le redimensionner
 
-== Ajout d'un graph
+== Add a graph
 
 image::../images/plan22.png[]
 
-Une fois cliqué dessus vous obtenez : 
+Once you click on it you will see : 
 
 image::../images/plan23.png[]
 
@@ -196,7 +196,7 @@ Un double clic dessus vous amene à la configuration de l'élement graph
 
 image::../images/plan24.png[]
 
-Ici on retrouve : 
+Here we have : 
 
 * *Période* : permet de choisir la période d'affichage
 * *Bordure (attention syntax css, ex : solid 1px black)* : permet d'ajouter une bordure, attention la syntaxe est HTML
